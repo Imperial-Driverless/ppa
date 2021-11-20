@@ -1,3 +1,20 @@
+Package: imperial-driverless-rosdep-index
+Version: 0.0.0
+Architecture: all
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 0
+Filename: ./imperial-driverless-rosdep-index_0.0.0-0focal_amd64.deb
+Size: 1286
+MD5sum: eddbb8464ec7970ab57f46c956a3e6b7
+SHA1: e163bef7a7cfe8eaab54a98e41d0ec9d4a46cf54
+SHA256: ba1b7105f83c1a397c0774c6b14fcf7588a0d1e78422358a0a323772161bc2af
+Section: default
+Priority: required
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: none
+
 Package: ros-galactic-imperial-driverless-interfaces
 Version: 0.0.0-0focal
 Architecture: amd64
