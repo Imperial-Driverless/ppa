@@ -1,0 +1,4 @@
+Packages.gz binary
+*.deb binary
+*.ddeb binary
+KEY.gpg binary
