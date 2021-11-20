@@ -1,3 +1,5 @@
+#!/bin/sh
+
 EMAIL=imperial.driverless@gmail.com
 
 dpkg-scanpackages --multiversion . > Packages &&
