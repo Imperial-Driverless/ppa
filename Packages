@@ -30,3 +30,18 @@ Section: misc
 Priority: optional
 Description: The intterfaces used for communication between the subteams
 
+Package: ros-galactic-slam-implementations
+Version: 0.0.0-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 41
+Depends: ros-galactic-imperial-driverless-interfaces
+Filename: ./ros-galactic-slam-implementations_0.0.0-0focal_amd64.deb
+Size: 6372
+MD5sum: 8a1492ae1e631af440105ea86ee9c21e
+SHA1: 86e4bb034a8e911924e0d0280c787a3ebf1700dd
+SHA256: cc6a7454327fa65788ac682f9e0fd6ab9360a8764b0ec6655da6dc168c760786
+Section: misc
+Priority: optional
+Description: A ROS2 package exposing our SLAM algorithms as ROS nodes
+

@@ -1,2 +1,5 @@
 imperial_driverless_interfaces:
   ubuntu: [ros-galactic-imperial-driverless-interfaces]
+
+slam_implementations:
+  ubuntu: [ros-galactic-slam-implementations]
