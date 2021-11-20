@@ -9,7 +9,7 @@ In order to use it:
 curl -s --compressed "https://github.com/Imperial-Driverless/ppa/KEY.gpg" | sudo apt-key add -
 ```
 
-2. Add the package list to your apr sources list:
+2. Add the package list to your APT sources list:
 ``` 
 sudo curl -s --compressed -o /etc/apt/sources.list.d/imperial-driverless.list "https://github.com/Imperial-Driverless/ppa/imperial-driverless.list"
 ```
