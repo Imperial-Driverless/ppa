@@ -6,12 +6,12 @@ In order to use it:
 
 1. Add the GPG key:
 ```
-curl -s --compressed "https://github.com/Imperial-Driverless/ppa/KEY.gpg" | sudo apt-key add -
+curl -s --compressed "https://imperial-driverless.github.io/ppa/KEY.gpg" | sudo apt-key add -
 ```
 
 2. Add the package list to your APT sources list:
 ``` 
-sudo curl -s --compressed -o /etc/apt/sources.list.d/imperial-driverless.list "https://github.com/Imperial-Driverless/ppa/imperial-driverless.list"
+sudo curl -s --compressed -o /etc/apt/sources.list.d/imperial-driverless.list "https://imperial-driverless.github.io/ppa/imperial-driverless.list"
 ```
 
 3. Update your APT cache:
