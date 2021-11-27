@@ -32,6 +32,23 @@ Description: no description given
 License: unknown
 Vendor: none
 
+Package: imperial-driverless-rosdep-index
+Version: 0.2.0
+Architecture: all
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 0
+Filename: ./packages/imperial-driverless-rosdep-index_0.2.0-0focal_amd64.deb
+Size: 1284
+MD5sum: 37a4ccf4fa129e934d48747cb99f9126
+SHA1: b66e8f2cdc85ff0a5e408366fdcd9be01cd82330
+SHA256: 3fa6b324142d2ab1062b84376d325f3618733173935ebb1b75af5f831f3135d3
+Section: default
+Priority: required
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: none
+
 Package: ros-galactic-ackermann-drive-teleop
 Version: 1.0.0-0focal
 Architecture: amd64
