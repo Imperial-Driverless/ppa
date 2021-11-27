@@ -3,3 +3,6 @@ imperial_driverless_interfaces:
 
 slam_implementations:
   ubuntu: [ros-galactic-slam-implementations]
+
+ackermann_drive_teleop:
+  ubuntu: [ros-galactic-ackermann-drive-teleop]
