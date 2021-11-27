@@ -33,4 +33,5 @@ sudo apt install <package-name>
 -  imperial-driverless-rosdep-index
 -  ros-galactic-ackermann-drive-teleop
 -  ros-galactic-imperial-driverless-interfaces
+-  ros-galactic-racecar-description
 -  ros-galactic-slam-implementations

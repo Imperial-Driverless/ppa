@@ -62,6 +62,21 @@ Section: misc
 Priority: optional
 Description: The intterfaces used for communication between the subteams
 
+Package: ros-galactic-racecar-description
+Version: 0.0.0-0focal
+Architecture: amd64
+Maintainer: ubuntu <ubuntu@todo.todo>
+Installed-Size: 2523
+Depends: ros-galactic-joint-state-publisher, ros-galactic-robot-state-publisher, ros-galactic-rviz2, ros-galactic-xacro
+Filename: ./packages/ros-galactic-racecar-description_0.0.0-0focal_amd64.deb
+Size: 211052
+MD5sum: 1053e4118dbaaf2c7433a87299af1645
+SHA1: 39bbacd9ba1e0209441d9bd49ed222c967ee1ae6
+SHA256: 2b3d1b388cb2e229574f0eb5dfdbb49d8c31b72cca78a1e16863d4cec1c1c792
+Section: misc
+Priority: optional
+Description: The racecar_description package
+
 Package: ros-galactic-slam-implementations
 Version: 0.0.0-0focal
 Architecture: amd64
