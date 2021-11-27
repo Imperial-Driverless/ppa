@@ -15,6 +15,21 @@ Description: no description given
 License: unknown
 Vendor: none
 
+Package: ros-galactic-ackermann-drive-teleop
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Mateusz Lichota <mateusz@lichota.net>
+Installed-Size: 62
+Depends: ros-galactic-ackermann-msgs, ros-galactic-rclpy
+Filename: ./packages/ros-galactic-ackermann-drive-teleop_1.0.0-0focal_amd64.deb
+Size: 9784
+MD5sum: 3658789ca2c5e6d349f7937d0b6a31e8
+SHA1: 8d862fc627e5dd56f5458a6d123e85d25f56283e
+SHA256: b603ff74d01ba8c0b6950b6b626cfc87685c9d11b46d3462abfa9e8416b5d076
+Section: misc
+Priority: optional
+Description: The ackermann_drive_teleop package
+
 Package: ros-galactic-imperial-driverless-interfaces
 Version: 0.0.0-0focal
 Architecture: amd64

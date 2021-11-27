@@ -31,5 +31,6 @@ sudo apt install <package-name>
 
 ### Currently available packages <!-- do not change the title of this section, as the contents are automatically generated. Also, in order to add a section after this one changes are needed to update_packages.sh, as it deletes all lines after the section title -->
 -  imperial-driverless-rosdep-index
+-  ros-galactic-ackermann-drive-teleop
 -  ros-galactic-imperial-driverless-interfaces
 -  ros-galactic-slam-implementations
