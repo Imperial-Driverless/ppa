@@ -9,3 +9,6 @@ ackermann_drive_teleop:
 
 racecar_description:
   ubuntu: [ros-galactic-racecar-description]
+  
+topic_tools:
+  ubuntu: [ros-galactic-topic-tools]

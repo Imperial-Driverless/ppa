@@ -49,6 +49,23 @@ Description: no description given
 License: unknown
 Vendor: none
 
+Package: imperial-driverless-rosdep-index
+Version: 0.3.0
+Architecture: all
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 0
+Filename: ./packages/imperial-driverless-rosdep-index_0.3.0-0focal_amd64.deb
+Size: 1288
+MD5sum: 873780a4f8d1f5269371697ab1538c92
+SHA1: fa940bee7bf8821b85c6884a585881de5b44d53a
+SHA256: 5e9c8ad404976ddd037b52dfee467ea435fc0cb99fce2412456a94ffa15e28a2
+Section: default
+Priority: required
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: none
+
 Package: ros-galactic-ackermann-drive-teleop
 Version: 1.0.0-0focal
 Architecture: amd64
@@ -123,4 +140,19 @@ SHA256: 27b7c98ad154ceb96ab68598cd5e59a1e310e660125ada57d1c0784a5a0a439d
 Section: misc
 Priority: optional
 Description: A ROS2 package exposing our SLAM algorithms as ROS nodes
+
+Package: ros-galactic-topic-tools
+Version: 0.0.0-0focal
+Architecture: amd64
+Maintainer: Emerson Knapp <me@emersonknapp.com>
+Installed-Size: 330
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-galactic-console-bridge-vendor, ros-galactic-rclcpp, ros-galactic-rclcpp-components, ros-galactic-rclpy, ros-galactic-ros2cli, ros-galactic-rosidl-runtime-py
+Filename: ./packages/ros-galactic-topic-tools_0.0.0-0focal_amd64.deb
+Size: 58156
+MD5sum: 910d5a75d8105bf2d7f27956ed18e2d5
+SHA1: 84d98e54c2f44c5370cb83e0d4bea750914837da
+SHA256: efecfe3009ae383ef7f81fc64182b589d569795c3ab12f57113ed2166aa60540
+Section: misc
+Priority: optional
+Description: TODO: Package description
 

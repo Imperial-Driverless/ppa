@@ -35,3 +35,4 @@ sudo apt install <package-name>
 -  ros-galactic-imperial-driverless-interfaces
 -  ros-galactic-racecar-description
 -  ros-galactic-slam-implementations
+-  ros-galactic-topic-tools
