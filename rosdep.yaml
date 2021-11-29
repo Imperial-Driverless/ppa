@@ -12,3 +12,6 @@ racecar_description:
   
 topic_tools:
   ubuntu: [ros-galactic-topic-tools]
+
+lightweight_lidar_only_simulator:
+  ubuntu: [ros-galactic-lightweight-lidar-only-simulator]

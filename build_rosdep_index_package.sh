@@ -2,7 +2,7 @@
 
 FILENAME=50-imperial-driverless.list
 PACKAGE_NAME=imperial-driverless-rosdep-index
-VERSION=0.3.0
+VERSION=0.4.0
 DEB_FILE=packages/${PACKAGE_NAME}_${VERSION}-0focal_amd64.deb
 
 echo yaml https://imperial-driverless.github.io/ppa/rosdep.yaml > $FILENAME

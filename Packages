@@ -66,6 +66,23 @@ Description: no description given
 License: unknown
 Vendor: none
 
+Package: imperial-driverless-rosdep-index
+Version: 0.4.0
+Architecture: all
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 0
+Filename: ./packages/imperial-driverless-rosdep-index_0.4.0-0focal_amd64.deb
+Size: 1286
+MD5sum: 8256d7d6770c252a8ca621a785dfec16
+SHA1: 64a29f72c472bdaf43663601d23cca706702c2d8
+SHA256: 22ba5eb5150777572968a38a478b496ab9c9de3acce49bb99f29392075b4e805
+Section: default
+Priority: required
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: none
+
 Package: ros-galactic-ackermann-drive-teleop
 Version: 1.0.0-0focal
 Architecture: amd64
@@ -95,6 +112,21 @@ SHA256: 3f417ddf2627bf58805f6aab6b1edb6799e70daeb47f8e1930b12e0e8d02c134
 Section: misc
 Priority: optional
 Description: The intterfaces used for communication between the subteams
+
+Package: ros-galactic-lightweight-lidar-only-simulator
+Version: 0.1.0-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 1368
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-galactic-ackermann-msgs, ros-galactic-geometry-msgs, ros-galactic-nav-msgs, ros-galactic-nav2-map-server, ros-galactic-racecar-description, ros-galactic-rclcpp, ros-galactic-robot-state-publisher, ros-galactic-rviz2, ros-galactic-sensor-msgs, ros-galactic-tf2, ros-galactic-tf2-geometry-msgs, ros-galactic-tf2-ros, ros-galactic-topic-tools
+Filename: ./packages/ros-galactic-lightweight-lidar-only-simulator_0.1.0-0focal_amd64.deb
+Size: 276680
+MD5sum: 3ec5ed568f1c78e9ed34667f9c2dbdf0
+SHA1: 5a35fa9e9eb637afadf5977127ee330d7ebde094
+SHA256: a84167e1af9ee7856491c86a601db92b79b5551319f2592c72c293c1de5ef3f8
+Section: misc
+Priority: optional
+Description: A lightweight simulator for a car with lidar
 
 Package: ros-galactic-racecar-description
 Version: 0.0.0-0focal
