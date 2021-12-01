@@ -188,6 +188,21 @@ Section: misc
 Priority: optional
 Description: A ROS2 package exposing our SLAM algorithms as ROS nodes
 
+Package: ros-galactic-slam-implementations
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 74
+Depends: ros-galactic-imperial-driverless-interfaces
+Filename: ./packages/ros-galactic-slam-implementations_1.0.0-0focal_amd64.deb
+Size: 11236
+MD5sum: b63ca7f058549fbfdd54d2eb4076e6f2
+SHA1: 4aefe45634795f64c46088912866d5585480db7b
+SHA256: 1ec22ae3c43333fb682dede5d25f45e78ef52a41f79485e38e49cca1067d4edc
+Section: misc
+Priority: optional
+Description: A ROS2 package exposing our SLAM algorithms as ROS nodes
+
 Package: ros-galactic-topic-tools
 Version: 0.0.0-0focal
 Architecture: amd64
