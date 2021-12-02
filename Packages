@@ -83,6 +83,23 @@ Description: no description given
 License: unknown
 Vendor: none
 
+Package: imperial-driverless-rosdep-index
+Version: 0.5.0
+Architecture: all
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 0
+Filename: ./packages/imperial-driverless-rosdep-index_0.5.0-0focal_amd64.deb
+Size: 1292
+MD5sum: 7c6b76d561ef200c7bcc25b9b951f2bd
+SHA1: e1e834b7f83827128c6fdc02a1217941b366f395
+SHA256: 6fb60778c6769dd42c7af4a77659229da03f01b49f7b37b9ca66f5f417bfb4a9
+Section: default
+Priority: required
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: none
+
 Package: ros-galactic-ackermann-drive-teleop
 Version: 1.0.0-0focal
 Architecture: amd64
@@ -94,6 +111,21 @@ Size: 9784
 MD5sum: 3658789ca2c5e6d349f7937d0b6a31e8
 SHA1: 8d862fc627e5dd56f5458a6d123e85d25f56283e
 SHA256: b603ff74d01ba8c0b6950b6b626cfc87685c9d11b46d3462abfa9e8416b5d076
+Section: misc
+Priority: optional
+Description: The ackermann_drive_teleop package
+
+Package: ros-galactic-ackermann-drive-teleop
+Version: 1.0.1-0focal
+Architecture: amd64
+Maintainer: Mateusz Lichota <mateusz@lichota.net>
+Installed-Size: 62
+Depends: ros-galactic-ackermann-msgs, ros-galactic-rclpy
+Filename: ./packages/ros-galactic-ackermann-drive-teleop_1.0.1-0focal_amd64.deb
+Size: 9880
+MD5sum: d91455b7c7378870e3f3ff0977ad5f93
+SHA1: ee07923223e65dfe453b22eee55316a1329f9303
+SHA256: f31323b447818153de8311ffda880d35bcf490279ccd6e503c7d4073bb02c007
 Section: misc
 Priority: optional
 Description: The ackermann_drive_teleop package
@@ -112,6 +144,21 @@ SHA256: 3f417ddf2627bf58805f6aab6b1edb6799e70daeb47f8e1930b12e0e8d02c134
 Section: misc
 Priority: optional
 Description: The intterfaces used for communication between the subteams
+
+Package: ros-galactic-lidar-only-cone-detector
+Version: 0.0.0-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 48
+Depends: ros-galactic-imperial-driverless-interfaces
+Filename: ./packages/ros-galactic-lidar-only-cone-detector_0.0.0-0focal_amd64.deb
+Size: 7888
+MD5sum: cefd4f3bc62aef1c66bc55f4e39ae697
+SHA1: 30d71d0fea4e454e63f26b6171c7172abe98385b
+SHA256: aa537ad59f6dad6c21109b5fdd8e37e00db95423576a84e3c029ef273074076e
+Section: misc
+Priority: optional
+Description: TODO: Package description
 
 Package: ros-galactic-lightweight-lidar-only-simulator
 Version: 0.1.0-0focal

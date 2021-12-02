@@ -15,3 +15,6 @@ topic_tools:
 
 lightweight_lidar_only_simulator:
   ubuntu: [ros-galactic-lightweight-lidar-only-simulator]
+
+lidar_only_cone_detector:
+  ubuntu: [ros-galactic-lidar-only-cone-detector]
