@@ -18,3 +18,6 @@ lightweight_lidar_only_simulator:
 
 lidar_only_cone_detector:
   ubuntu: [ros-galactic-lidar-only-cone-detector]
+
+imperial_driverless_utils:
+  ubuntu: [ros-galactic-imperial-driverless-utils]

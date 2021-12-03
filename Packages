@@ -100,6 +100,23 @@ Description: no description given
 License: unknown
 Vendor: none
 
+Package: imperial-driverless-rosdep-index
+Version: 0.6.0
+Architecture: all
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 0
+Filename: ./packages/imperial-driverless-rosdep-index_0.6.0-0focal_amd64.deb
+Size: 1284
+MD5sum: 031ee98dad9b3f4b46fc07f8bf566807
+SHA1: ec2b00124b70192a161b5cd9fe1490c80eae9f1d
+SHA256: c07391c511b9841370036dcef6596cc822aa70686a5715c50aa211f8f7cbc53b
+Section: default
+Priority: required
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: none
+
 Package: ros-galactic-ackermann-drive-teleop
 Version: 1.0.0-0focal
 Architecture: amd64
@@ -144,6 +161,21 @@ SHA256: 3f417ddf2627bf58805f6aab6b1edb6799e70daeb47f8e1930b12e0e8d02c134
 Section: misc
 Priority: optional
 Description: The intterfaces used for communication between the subteams
+
+Package: ros-galactic-imperial-driverless-utils
+Version: 0.0.0-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 62
+Depends: ros-galactic-rviz2
+Filename: ./packages/ros-galactic-imperial-driverless-utils_0.0.0-0focal_amd64.deb
+Size: 8520
+MD5sum: b675f03355eb9ce2c375ec2e334f62bf
+SHA1: 3d74ee0acb8d5f94fd73550db5bbc66e09eb408f
+SHA256: 82e8c9c3ae5c154b66259473948b6256c6c864502645a32bd8922895d8774fbd
+Section: misc
+Priority: optional
+Description: Utilities for Imperial Driverless developers
 
 Package: ros-galactic-lidar-only-cone-detector
 Version: 0.0.0-0focal
