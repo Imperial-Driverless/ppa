@@ -21,7 +21,7 @@ sudo apt update
 
 4. Install the rosdep index package:
 ```
-sudo apt install imperial-driverless-rosdep-index
+sudo apt install imperial-driverless-rosdep-index && rosdep update
 ```
 
 After following these steps you should be install our packages by running
