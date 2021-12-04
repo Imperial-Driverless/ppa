@@ -327,3 +327,18 @@ Section: misc
 Priority: optional
 Description: TODO: Package description
 
+Package: ros-galactic-topic-tools
+Version: 0.0.1-0focal
+Architecture: amd64
+Maintainer: Emerson Knapp <me@emersonknapp.com>
+Installed-Size: 313
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-galactic-console-bridge-vendor, ros-galactic-rclcpp, ros-galactic-rclcpp-components, ros-galactic-rclpy, ros-galactic-ros2cli, ros-galactic-rosidl-runtime-py
+Filename: ./packages/ros-galactic-topic-tools_0.0.1-0focal_amd64.deb
+Size: 58352
+MD5sum: 4f4da7dfa6449f54ceaec623ffb20eba
+SHA1: c649e0c4f77e338982897f0f71376f6e1d31c4f4
+SHA256: 4239ccb2a6c02fe91ab021c69fdd30471f348383811abc265edaf4fe88605270
+Section: misc
+Priority: optional
+Description: TODO: Package description
+
