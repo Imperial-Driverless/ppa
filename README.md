@@ -36,6 +36,8 @@ sudo apt install <package-name>
 -  ros-galactic-imperial-driverless-utils
 -  ros-galactic-lidar-only-cone-detector
 -  ros-galactic-lightweight-lidar-only-simulator
+-  ros-galactic-path-followers
+-  ros-galactic-path-generators
 -  ros-galactic-racecar-description
 -  ros-galactic-slam-implementations
 -  ros-galactic-topic-tools

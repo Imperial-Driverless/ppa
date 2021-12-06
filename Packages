@@ -222,6 +222,21 @@ Section: misc
 Priority: optional
 Description: Utilities for Imperial Driverless developers
 
+Package: ros-galactic-imperial-driverless-utils
+Version: 0.3.0-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 83
+Depends: python3-opencv, ros-galactic-ackermann-drive-teleop, ros-galactic-rviz2
+Filename: ./packages/ros-galactic-imperial-driverless-utils_0.3.0-0focal_amd64.deb
+Size: 12936
+MD5sum: 2dc6bd72dd47bddf367d0ada755015b4
+SHA1: e1b9177b51b509adea0fd36d54d98881d12abe21
+SHA256: 3dc8710538f577dbc20bcfb39c25f39c26e090359152d2f1682b93ca53acd1b4
+Section: misc
+Priority: optional
+Description: Utilities for Imperial Driverless developers
+
 Package: ros-galactic-lidar-only-cone-detector
 Version: 0.0.0-0focal
 Architecture: amd64
@@ -281,6 +296,36 @@ SHA256: 2134d173687e5fd791a7e495f1938b27454d7933dc102041e2e913a9402b09fd
 Section: misc
 Priority: optional
 Description: A lightweight simulator for a car with lidar
+
+Package: ros-galactic-path-followers
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 63
+Depends: ros-galactic-geometry-msgs, ros-galactic-imperial-driverless-interfaces, ros-galactic-nav-msgs
+Filename: ./packages/ros-galactic-path-followers_1.0.0-0focal_amd64.deb
+Size: 12080
+MD5sum: fc17fe0fc16c9806ef0c7f2c12de9aca
+SHA1: 61c8b16b459fe1c95cf3021f3831e1f707a56fe6
+SHA256: d09a00d9b0e06ac3ffb1762133600da6401f83995e733c5d3038eb7688070b7d
+Section: misc
+Priority: optional
+Description: TODO: Package description
+
+Package: ros-galactic-path-generators
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 47
+Depends: ros-galactic-geometry-msgs, ros-galactic-imperial-driverless-interfaces, ros-galactic-nav-msgs
+Filename: ./packages/ros-galactic-path-generators_1.0.0-0focal_amd64.deb
+Size: 7856
+MD5sum: 0a500a536faaea62417f4765cf79f050
+SHA1: ea61db047f4142905b4cded278679a0dd71be7d3
+SHA256: 4a51feca58565536aed288bce33c04df00a9652fe1b267d50397873077ed8f98
+Section: misc
+Priority: optional
+Description: TODO: Package description
 
 Package: ros-galactic-racecar-description
 Version: 0.0.0-0focal

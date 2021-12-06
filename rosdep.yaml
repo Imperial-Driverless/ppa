@@ -21,3 +21,9 @@ lidar_only_cone_detector:
 
 imperial_driverless_utils:
   ubuntu: [ros-galactic-imperial-driverless-utils]
+
+path_followers:
+  ubuntu: [ros-galactic-path-followers]
+
+path_generators:
+  ubuntu: [ros-galactic-path-generators]
