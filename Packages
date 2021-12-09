@@ -387,6 +387,21 @@ Section: misc
 Priority: optional
 Description: TODO: Package description
 
+Package: ros-galactic-path-followers
+Version: 2.0.0-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 58
+Depends: ros-galactic-geometry-msgs, ros-galactic-nav-msgs
+Filename: ./packages/ros-galactic-path-followers_2.0.0-0focal_amd64.deb
+Size: 10980
+MD5sum: b26949957bdac5a1a1c60d252387a323
+SHA1: 5911dc0d94bfd0db30c33fdb6c0e95573ded7641
+SHA256: 44139b966ee69ed5583ce92155535d351ddda8b917d980197774b198c07144aa
+Section: misc
+Priority: optional
+Description: Algorithms for following a given path
+
 Package: ros-galactic-path-generators
 Version: 1.0.0-0focal
 Architecture: amd64
