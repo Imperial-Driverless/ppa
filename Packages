@@ -357,6 +357,21 @@ Section: misc
 Priority: optional
 Description: A lightweight simulator for a car with lidar
 
+Package: ros-galactic-lightweight-lidar-only-simulator
+Version: 2.1.0-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 1276
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-galactic-ackermann-msgs, ros-galactic-geometry-msgs, ros-galactic-nav-msgs, ros-galactic-nav2-map-server, ros-galactic-racecar-description, ros-galactic-rclcpp, ros-galactic-robot-state-publisher, ros-galactic-rviz2, ros-galactic-sensor-msgs, ros-galactic-tf2, ros-galactic-tf2-geometry-msgs, ros-galactic-tf2-ros, ros-galactic-topic-tools
+Filename: ./packages/ros-galactic-lightweight-lidar-only-simulator_2.1.0-0focal_amd64.deb
+Size: 267512
+MD5sum: e3d6fb85d70d193b8281e2070128a153
+SHA1: a41c42ed2c67752562fdcb7592736640069bb904
+SHA256: 66fb1b72180ce2000a2a17c664a6dcfbd5b7852c58dd0adaad533746217ea802
+Section: misc
+Priority: optional
+Description: A lightweight simulator for a car with lidar
+
 Package: ros-galactic-path-followers
 Version: 1.0.0-0focal
 Architecture: amd64
