@@ -147,6 +147,21 @@ Section: misc
 Priority: optional
 Description: The ackermann_drive_teleop package
 
+Package: ros-galactic-car-keyop
+Version: 2.0.0-0focal
+Architecture: amd64
+Maintainer: Mateusz Lichota <mateusz@lichota.net>
+Installed-Size: 40
+Depends: python3-pygame, ros-galactic-ackermann-msgs, ros-galactic-geometry-msgs, ros-galactic-rclpy
+Filename: ./packages/ros-galactic-car-keyop_2.0.0-0focal_amd64.deb
+Size: 6148
+MD5sum: 2abf6e64726687eacb5ed2c1f6fb0c3d
+SHA1: bf5c52f4c81f050f1c546a0e923a24f8cba29814
+SHA256: 592e73f81289c8180d4fe790d76f617e3a4daf2dfc5c9b1ce95457a718c81547
+Section: misc
+Priority: optional
+Description: Package for controlling a car using keyboard
+
 Package: ros-galactic-imperial-driverless-interfaces
 Version: 0.0.0-0focal
 Architecture: amd64

@@ -27,3 +27,6 @@ path_followers:
 
 path_generators:
   ubuntu: [ros-galactic-path-generators]
+
+car_keyop:
+  ubuntu: [ros-galactic-car-keyop]
