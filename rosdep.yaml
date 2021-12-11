@@ -7,8 +7,8 @@ slam_implementations:
 ackermann_drive_teleop:
   ubuntu: [ros-galactic-ackermann-drive-teleop]
 
-racecar_description:
-  ubuntu: [ros-galactic-racecar-description]
+vehicle_descriptions:
+  ubuntu: [ros-galactic-vehicle-descriptions]
   
 topic_tools:
   ubuntu: [ros-galactic-topic-tools]
@@ -30,3 +30,4 @@ path_generators:
 
 car_keyop:
   ubuntu: [ros-galactic-car-keyop]
+

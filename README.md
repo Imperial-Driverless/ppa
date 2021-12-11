@@ -42,3 +42,4 @@ sudo apt install <package-name>
 -  ros-galactic-racecar-description
 -  ros-galactic-slam-implementations
 -  ros-galactic-topic-tools
+-  ros-galactic-vehicle-descriptions
