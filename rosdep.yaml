@@ -4,9 +4,6 @@ imperial_driverless_interfaces:
 slam_implementations:
   ubuntu: [ros-galactic-slam-implementations]
 
-ackermann_drive_teleop:
-  ubuntu: [ros-galactic-ackermann-drive-teleop]
-
 vehicle_descriptions:
   ubuntu: [ros-galactic-vehicle-descriptions]
   
@@ -31,3 +28,5 @@ path_generators:
 car_keyop:
   ubuntu: [ros-galactic-car-keyop]
 
+id_track_utils:
+  ubuntu: [ros-galactic-id-track-utils]

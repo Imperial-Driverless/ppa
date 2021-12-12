@@ -162,6 +162,21 @@ Section: misc
 Priority: optional
 Description: Package for controlling a car using keyboard
 
+Package: ros-galactic-id-track-utils
+Version: 0.1.0-0focal
+Architecture: amd64
+Maintainer: Mateusz Lichota <mateusz@lichota.net>
+Installed-Size: 13537
+Depends: libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pil, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-scipy, python3-sip-dev, ros-galactic-ament-index-python, ros-galactic-launch, ros-galactic-launch-ros, ros-galactic-rclpy, ros-galactic-rqt-gui, shiboken2
+Filename: ./packages/ros-galactic-id-track-utils_0.1.0-0focal_amd64.deb
+Size: 13344588
+MD5sum: 00c8f8bd956d0ae7699bb5a4d8b4c054
+SHA1: a8526c0f341f3560f3019fd468c3fe77de364f28
+SHA256: a41efdf3751b434a24502975b854cd2b200833a827f2d9f29b011f1886f874dd
+Section: misc
+Priority: optional
+Description: Utilities for procedurally generating tracks and converting between different formats.
+
 Package: ros-galactic-imperial-driverless-interfaces
 Version: 0.0.0-0focal
 Architecture: amd64
