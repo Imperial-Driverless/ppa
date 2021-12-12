@@ -612,3 +612,18 @@ Section: misc
 Priority: optional
 Description: A package containing the descriptions of all vehicles simulated by Imperial Driverless
 
+Package: ros-galactic-vehicle-descriptions
+Version: 3.0.2-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 5695
+Depends: ros-galactic-joint-state-publisher, ros-galactic-robot-state-publisher, ros-galactic-rviz2, ros-galactic-xacro
+Filename: ./packages/ros-galactic-vehicle-descriptions_3.0.2-0focal_amd64.deb
+Size: 1140332
+MD5sum: d11240a4a1f80f145905196421fb5a27
+SHA1: 8d33aa48e06cdb7baf0922bf4df0f93333c197ec
+SHA256: 1108e2d7d2a0d9a8c532424c76bc9fdb085c5fa8bdadd30a4fed5d6ef4e3f022
+Section: misc
+Priority: optional
+Description: A package containing the descriptions of all vehicles simulated by Imperial Driverless
+
