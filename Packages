@@ -342,6 +342,21 @@ Section: misc
 Priority: optional
 Description: Utilities for Imperial Driverless developers
 
+Package: ros-galactic-imperial-driverless-utils
+Version: 0.4.4-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 83
+Depends: ros-galactic-car-keyop, ros-galactic-id-track-utils, ros-galactic-lightweight-lidar-only-simulator, ros-galactic-rviz2, ros-galactic-vehicle-descriptions
+Filename: ./packages/ros-galactic-imperial-driverless-utils_0.4.4-0focal_amd64.deb
+Size: 12824
+MD5sum: 5ea1f841022f11f3066eca686f86ce52
+SHA1: 6efe3d866f677ba7a18d10eccdd00b5c3dd18d34
+SHA256: 678d142f96596bae9ed3d68585902858de694aa50568e570d874f7481b58ff6d
+Section: misc
+Priority: optional
+Description: Utilities for Imperial Driverless developers
+
 Package: ros-galactic-lidar-only-cone-detector
 Version: 0.0.0-0focal
 Architecture: amd64
