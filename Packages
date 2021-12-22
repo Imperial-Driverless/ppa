@@ -177,6 +177,21 @@ Section: misc
 Priority: optional
 Description: Utilities for procedurally generating tracks and converting between different formats.
 
+Package: ros-galactic-id-track-utils
+Version: 0.2.1-0focal
+Architecture: amd64
+Maintainer: Mateusz Lichota <mateusz@lichota.net>
+Installed-Size: 13538
+Depends: libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pil, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-scipy, python3-sip-dev, ros-galactic-ament-index-python, ros-galactic-launch, ros-galactic-launch-ros, ros-galactic-rclpy, ros-galactic-rqt-gui, shiboken2
+Filename: ./packages/ros-galactic-id-track-utils_0.2.1-0focal_amd64.deb
+Size: 13344996
+MD5sum: eda7176444554f29ccc8f44fc8f36fbc
+SHA1: c82a9837847ab4323956f65a018ec22d9cded81a
+SHA256: 25bc00b8e75915e0387df38c5d791739988fc35e4ab3c4f51651e092bb61b4e9
+Section: misc
+Priority: optional
+Description: Utilities for procedurally generating tracks and converting between different formats.
+
 Package: ros-galactic-imperial-driverless-interfaces
 Version: 0.0.0-0focal
 Architecture: amd64
