@@ -514,10 +514,25 @@ Maintainer: mateusz <mateusz@lichota.net>
 Installed-Size: 58
 Depends: ros-galactic-geometry-msgs, ros-galactic-nav-msgs
 Filename: ./packages/ros-galactic-path-followers_2.0.0-0focal_amd64.deb
-Size: 10980
-MD5sum: b26949957bdac5a1a1c60d252387a323
-SHA1: 5911dc0d94bfd0db30c33fdb6c0e95573ded7641
-SHA256: 44139b966ee69ed5583ce92155535d351ddda8b917d980197774b198c07144aa
+Size: 10960
+MD5sum: 91e72f617bb5e4a3b6b5e16f43ec7d70
+SHA1: 81aedc7ff761f48ef7d3a0f8d665ec98bb5997aa
+SHA256: 3db28ae8c700ba492a118d15d3fd108ad5cdc8555d9a17c5e33bd016ada29edf
+Section: misc
+Priority: optional
+Description: Algorithms for following a given path
+
+Package: ros-galactic-path-followers
+Version: 2.1.0-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 58
+Depends: ros-galactic-geometry-msgs, ros-galactic-nav-msgs
+Filename: ./packages/ros-galactic-path-followers_2.1.0-0focal_amd64.deb
+Size: 10956
+MD5sum: e620b2662a7bd09a1eadc5ab850d4f32
+SHA1: 69a14537ca20124e847b1364fcf7026f8f5dbf02
+SHA256: bb056b49b6654bf34392be6b5e9584821d7fb791a6e5bfd7997132b4a7d922ab
 Section: misc
 Priority: optional
 Description: Algorithms for following a given path
@@ -533,6 +548,21 @@ Size: 7856
 MD5sum: 0a500a536faaea62417f4765cf79f050
 SHA1: ea61db047f4142905b4cded278679a0dd71be7d3
 SHA256: 4a51feca58565536aed288bce33c04df00a9652fe1b267d50397873077ed8f98
+Section: misc
+Priority: optional
+Description: TODO: Package description
+
+Package: ros-galactic-path-generators
+Version: 1.0.2-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 63
+Depends: ros-galactic-geometry-msgs, ros-galactic-imperial-driverless-interfaces, ros-galactic-nav-msgs
+Filename: ./packages/ros-galactic-path-generators_1.0.2-0focal_amd64.deb
+Size: 12496
+MD5sum: f2a3a2d097a5979d71ba5a991c5b5a5f
+SHA1: 03334df6481f8db433db3a34786361e1da1693cf
+SHA256: 0276f2fa969c56feab212d9bca83954bf993e96eaa84a3aa90039938f33f589f
 Section: misc
 Priority: optional
 Description: TODO: Package description
