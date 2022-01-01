@@ -162,6 +162,21 @@ Section: misc
 Priority: optional
 Description: Package for controlling a car using keyboard
 
+Package: ros-galactic-full-gazebo-simulator
+Version: 0.1.0-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 255
+Depends: ros-galactic-ament-index-python, ros-galactic-gazebo-plugins, ros-galactic-gazebo-ros, ros-galactic-imperial-driverless-gazebo-plugins, ros-galactic-rclpy, ros-galactic-xacro
+Filename: ./packages/ros-galactic-full-gazebo-simulator_0.1.0-0focal_amd64.deb
+Size: 41804
+MD5sum: 4d330f9395c3616701e2eefd5246ff6a
+SHA1: 1b5e2819a1495d99e2b0536ae3a1f16af72d3587
+SHA256: 0f0bf296c863b68ddc2846fc14ea659c3b5585dadd152d2d2cf07fab0b905a0a
+Section: misc
+Priority: optional
+Description: A gazebo-based FS-AI simulator by Imperial Driverless
+
 Package: ros-galactic-id-track-utils
 Version: 0.1.0-0focal
 Architecture: amd64
