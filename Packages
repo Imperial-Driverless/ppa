@@ -222,6 +222,21 @@ Section: misc
 Priority: optional
 Description: Utilities for procedurally generating tracks and converting between different formats.
 
+Package: ros-galactic-imperial-driverless-gazebo-plugins
+Version: 2.0.0-0focal
+Architecture: amd64
+Maintainer: Mateusz Lichota <mateusz@lichota.net>
+Installed-Size: 837
+Depends: libc6 (>= 2.14), libgazebo11 (>= 11.9.1), libgcc-s1 (>= 3.0), libsdformat9 (>= 9.7.0), libstdc++6 (>= 9), gazebo11, ros-galactic-ament-index-cpp, ros-galactic-gazebo-dev, ros-galactic-gazebo-ros, ros-galactic-geometry-msgs, ros-galactic-imperial-driverless-interfaces, ros-galactic-rclcpp, ros-galactic-tf2, ros-galactic-tf2-ros
+Filename: ./packages/ros-galactic-imperial-driverless-gazebo-plugins_2.0.0-0focal_amd64.deb
+Size: 162320
+MD5sum: e3a85189c40268613d19e50904a78968
+SHA1: 5b45e7d18affe6f214a0fae066c09fbb6d00998b
+SHA256: ef4a8f39ae6fc8d829bed8ff742615e143ed344d3a400b81530564133921a83b
+Section: misc
+Priority: optional
+Description: Gazebo plugins for full gazebo simulator.
+
 Package: ros-galactic-imperial-driverless-interfaces
 Version: 0.0.0-0focal
 Architecture: amd64

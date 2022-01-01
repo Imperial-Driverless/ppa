@@ -34,6 +34,7 @@ sudo apt install <package-name>
 -  ros-galactic-ackermann-drive-teleop
 -  ros-galactic-car-keyop
 -  ros-galactic-id-track-utils
+-  ros-galactic-imperial-driverless-gazebo-plugins
 -  ros-galactic-imperial-driverless-interfaces
 -  ros-galactic-imperial-driverless-utils
 -  ros-galactic-lidar-only-cone-detector
