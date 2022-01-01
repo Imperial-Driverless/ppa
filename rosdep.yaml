@@ -30,3 +30,9 @@ car_keyop:
 
 id_track_utils:
   ubuntu: [ros-galactic-id-track-utils]
+  
+imperial_driverless_gazebo_plugins:
+  ubuntu: [ros-galactic-imperial-driverless-gazebo-plugins]
+ 
+full_gazebo_simulator:
+  ubuntu: [ros-galactic-full-gazebo-simulator]
