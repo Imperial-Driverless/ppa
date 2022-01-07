@@ -732,6 +732,21 @@ Section: misc
 Priority: optional
 Description: TODO: Package description
 
+Package: ros-galactic-path-generators
+Version: 1.1.0-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 67
+Depends: ros-galactic-geometry-msgs, ros-galactic-imperial-driverless-interfaces, ros-galactic-nav-msgs
+Filename: ./packages/ros-galactic-path-generators_1.1.0-0focal_amd64.deb
+Size: 13684
+MD5sum: 8be366c848f75c962a487fbd8b867d69
+SHA1: dca171e38d9a2efe3c7898b6da0d38e2afcd74e7
+SHA256: b7a626cef32e316aa02eecf0516b257668d51aaa6e026ef0326e3d9fce3a5b7b
+Section: misc
+Priority: optional
+Description: TODO: Package description
+
 Package: ros-galactic-racecar-description
 Version: 0.0.0-0focal
 Architecture: amd64
