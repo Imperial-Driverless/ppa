@@ -687,6 +687,21 @@ Section: misc
 Priority: optional
 Description: Algorithms for following a given path
 
+Package: ros-galactic-path-followers
+Version: 3.0.0-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 842
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-galactic-console-bridge-vendor, ros-galactic-orocos-kdl, ros-galactic-geometry-msgs, ros-galactic-nav-msgs, ros-galactic-nav2-controller, ros-galactic-rclcpp
+Filename: ./packages/ros-galactic-path-followers_3.0.0-0focal_amd64.deb
+Size: 157296
+MD5sum: ddd44ecd74a23384605d44072b1c4f0b
+SHA1: 7e95f5cb4b567c0bbcd55ca0f4d73667025f7aec
+SHA256: d4d2e18d4ad6af727c02f6cf25625b43f36ecc2a57a3a92a37b010f8ed782daf
+Section: misc
+Priority: optional
+Description: Algorithms for following a given path
+
 Package: ros-galactic-path-generators
 Version: 1.0.0-0focal
 Architecture: amd64
