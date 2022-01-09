@@ -972,6 +972,21 @@ Section: misc
 Priority: optional
 Description: TODO: Package description
 
+Package: ros-galactic-vehicle-controllers
+Version: 0.0.0-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 65
+Depends: ros-galactic-geometry-msgs, ros-galactic-imperial-driverless-interfaces, ros-galactic-nav-msgs
+Filename: ./packages/ros-galactic-vehicle-controllers_0.0.0-0focal_amd64.deb
+Size: 8772
+MD5sum: 79496b2437f8fa05802700d062c0d0f3
+SHA1: 24a487cd4aa1c77ab44886d711cfaba862a11d4a
+SHA256: 3fa53f8c89098c9e8e9c1a3022701aedcbad9876794b526ce42cab683b59b616
+Section: misc
+Priority: optional
+Description: Algorithms for controlling the throttle and steering according to twist commands
+
 Package: ros-galactic-vehicle-descriptions
 Version: 3.0.0-0focal
 Architecture: amd64
