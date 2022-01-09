@@ -36,3 +36,6 @@ imperial_driverless_gazebo_plugins:
  
 full_gazebo_simulator:
   ubuntu: [ros-galactic-full-gazebo-simulator]
+
+vehicle_controllers:
+  ubuntu: [ros-galactic-vehicle-controllers]

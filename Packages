@@ -567,6 +567,21 @@ Section: misc
 Priority: optional
 Description: TODO: Package description
 
+Package: ros-galactic-lidar-only-cone-detector
+Version: 0.0.4-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 48
+Depends: ros-galactic-imperial-driverless-interfaces
+Filename: ./packages/ros-galactic-lidar-only-cone-detector_0.0.4-0focal_amd64.deb
+Size: 7932
+MD5sum: 763b16bf73bb54276b3f545c4b55641d
+SHA1: f28ac048fccb80c04b8768a358c1663e8c5e7cc5
+SHA256: 0e42daf356dc96b23e09b4976e12d768a8adf49f2f014db6188dc34e1f3d2fad
+Section: misc
+Priority: optional
+Description: TODO: Package description
+
 Package: ros-galactic-lightweight-lidar-only-simulator
 Version: 0.1.0-0focal
 Architecture: amd64
