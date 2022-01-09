@@ -192,6 +192,21 @@ Section: misc
 Priority: optional
 Description: A gazebo-based FS-AI simulator by Imperial Driverless
 
+Package: ros-galactic-full-gazebo-simulator
+Version: 0.2.0-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 255
+Depends: ros-galactic-ament-index-python, ros-galactic-gazebo-plugins, ros-galactic-gazebo-ros, ros-galactic-imperial-driverless-gazebo-plugins, ros-galactic-rclpy, ros-galactic-xacro
+Filename: ./packages/ros-galactic-full-gazebo-simulator_0.2.0-0focal_amd64.deb
+Size: 41996
+MD5sum: 5213adb2735996b25d2de80bb4e07310
+SHA1: 5990dca1ff4ffbc3e0fbb42a61d17e548c6983f0
+SHA256: 556999d017fb9790a604004b0db6e65ce1b4f8e0b503196e5c26a80474fbc1ec
+Section: misc
+Priority: optional
+Description: A gazebo-based FS-AI simulator by Imperial Driverless
+
 Package: ros-galactic-id-track-utils
 Version: 0.1.0-0focal
 Architecture: amd64
@@ -256,13 +271,13 @@ Package: ros-galactic-imperial-driverless-gazebo-plugins
 Version: 2.0.0-0focal
 Architecture: amd64
 Maintainer: Mateusz Lichota <mateusz@lichota.net>
-Installed-Size: 837
+Installed-Size: 832
 Depends: libc6 (>= 2.14), libgazebo11 (>= 11.9.1), libgcc-s1 (>= 3.0), libsdformat9 (>= 9.7.0), libstdc++6 (>= 9), gazebo11, ros-galactic-ament-index-cpp, ros-galactic-gazebo-dev, ros-galactic-gazebo-ros, ros-galactic-geometry-msgs, ros-galactic-imperial-driverless-interfaces, ros-galactic-rclcpp, ros-galactic-tf2, ros-galactic-tf2-ros
 Filename: ./packages/ros-galactic-imperial-driverless-gazebo-plugins_2.0.0-0focal_amd64.deb
-Size: 162320
-MD5sum: e3a85189c40268613d19e50904a78968
-SHA1: 5b45e7d18affe6f214a0fae066c09fbb6d00998b
-SHA256: ef4a8f39ae6fc8d829bed8ff742615e143ed344d3a400b81530564133921a83b
+Size: 162232
+MD5sum: 1015e8dc0dab5770cd2a89921b64dba1
+SHA1: c3bc3fed6e330e983286c4bc3789d6676e8dcdf9
+SHA256: b013eccfe3fcd9359dc8503fba9aa6baae202bd538bbd1568efd4205ba8d9df0
 Section: misc
 Priority: optional
 Description: Gazebo plugins for full gazebo simulator.
@@ -728,6 +743,21 @@ Size: 157296
 MD5sum: ddd44ecd74a23384605d44072b1c4f0b
 SHA1: 7e95f5cb4b567c0bbcd55ca0f4d73667025f7aec
 SHA256: d4d2e18d4ad6af727c02f6cf25625b43f36ecc2a57a3a92a37b010f8ed782daf
+Section: misc
+Priority: optional
+Description: Algorithms for following a given path
+
+Package: ros-galactic-path-followers
+Version: 3.0.2-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 838
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-galactic-console-bridge-vendor, ros-galactic-orocos-kdl, ros-galactic-geometry-msgs, ros-galactic-nav-msgs, ros-galactic-nav2-controller, ros-galactic-rclcpp
+Filename: ./packages/ros-galactic-path-followers_3.0.2-0focal_amd64.deb
+Size: 156824
+MD5sum: 4a4faa85bed103d82bfe4af12c5dfbc5
+SHA1: 6825ca2991e7573388874fef12a2f73e0dec22a9
+SHA256: 90c7f819f95b957087853609dc751da0597fe33d4f9226b4a7fdd0c1db00b5b9
 Section: misc
 Priority: optional
 Description: Algorithms for following a given path
