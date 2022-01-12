@@ -267,6 +267,21 @@ Section: misc
 Priority: optional
 Description: Utilities for procedurally generating tracks and converting between different formats.
 
+Package: ros-galactic-id-track-utils
+Version: 0.4.1-0focal
+Architecture: amd64
+Maintainer: Mateusz Lichota <mateusz@lichota.net>
+Installed-Size: 13540
+Depends: libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pil, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-scipy, python3-sip-dev, ros-galactic-ament-index-python, ros-galactic-geometry-msgs, ros-galactic-imperial-driverless-interfaces, ros-galactic-launch, ros-galactic-launch-ros, ros-galactic-rclpy, ros-galactic-rqt-gui, shiboken2
+Filename: ./packages/ros-galactic-id-track-utils_0.4.1-0focal_amd64.deb
+Size: 13345460
+MD5sum: 398ebf27cbc6d6a4668979d4a2cc196e
+SHA1: 2fbea08506411e41e5263c741fa4043eefe3c3cf
+SHA256: 3387e606aabeee6bdcf9537ae44c43f2b02a117fcbc4154d1259e63660a7567e
+Section: misc
+Priority: optional
+Description: Utilities for procedurally generating tracks and converting between different formats.
+
 Package: ros-galactic-imperial-driverless-gazebo-plugins
 Version: 2.0.0-0focal
 Architecture: amd64
@@ -308,6 +323,21 @@ Size: 61612
 MD5sum: cd18c50298697570ea8070e6bac22c2b
 SHA1: 4c88eefcb4174711a5eca5bb82cd29d2feeea8f1
 SHA256: 26ba46c348558fedafe195f7e8dd46fb90c4cd7247115782b19fb28544f42373
+Section: misc
+Priority: optional
+Description: The interfaces used for communication between the subteams
+
+Package: ros-galactic-imperial-driverless-interfaces
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 802
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), ros-galactic-fastcdr, ros-galactic-builtin-interfaces, ros-galactic-geometry-msgs, ros-galactic-rosidl-default-runtime, ros-galactic-std-msgs
+Filename: ./packages/ros-galactic-imperial-driverless-interfaces_1.0.0-0focal_amd64.deb
+Size: 62188
+MD5sum: 147f4d516a8304ab99b52635e6ca8291
+SHA1: 95fb4cf794f886008cb521ed7ef63bf0ee8e5a15
+SHA256: 220d063bb81412a8e0949afda5e75e0a217ef97310fd870e39d130f13432f8ed
 Section: misc
 Priority: optional
 Description: The interfaces used for communication between the subteams
@@ -522,6 +552,21 @@ Section: misc
 Priority: optional
 Description: Utilities for Imperial Driverless developers
 
+Package: ros-galactic-imperial-driverless-utils
+Version: 0.7.0-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 87
+Depends: ros-galactic-car-keyop, ros-galactic-id-track-utils, ros-galactic-lightweight-lidar-only-simulator, ros-galactic-rviz2, ros-galactic-vehicle-descriptions
+Filename: ./packages/ros-galactic-imperial-driverless-utils_0.7.0-0focal_amd64.deb
+Size: 14292
+MD5sum: f882872023c30b0c1560d6dfa4dc7cc3
+SHA1: 6f395a5c8879f344a46bb36f95674a298a344faa
+SHA256: 8a4863fa6d7dbc0a3260f77074c21f388232dcc85f99b604b28785fb14c8fc89
+Section: misc
+Priority: optional
+Description: Utilities for Imperial Driverless developers
+
 Package: ros-galactic-lidar-only-cone-detector
 Version: 0.0.0-0focal
 Architecture: amd64
@@ -578,6 +623,21 @@ Size: 7932
 MD5sum: 763b16bf73bb54276b3f545c4b55641d
 SHA1: f28ac048fccb80c04b8768a358c1663e8c5e7cc5
 SHA256: 0e42daf356dc96b23e09b4976e12d768a8adf49f2f014db6188dc34e1f3d2fad
+Section: misc
+Priority: optional
+Description: TODO: Package description
+
+Package: ros-galactic-lidar-only-cone-detector
+Version: 0.1.0-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 48
+Depends: ros-galactic-imperial-driverless-interfaces
+Filename: ./packages/ros-galactic-lidar-only-cone-detector_0.1.0-0focal_amd64.deb
+Size: 7932
+MD5sum: 18d3feb8f195d506619727beeabbac50
+SHA1: c62d5beb71ffb5cae528f6635537d14f04fe9bfd
+SHA256: d684c50e85e97f03abba11dc19682d61e6b05b4d4983bebd0730f25629d1098e
 Section: misc
 Priority: optional
 Description: TODO: Package description
@@ -822,6 +882,21 @@ Section: misc
 Priority: optional
 Description: TODO: Package description
 
+Package: ros-galactic-path-generators
+Version: 1.2.0-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 67
+Depends: ros-galactic-geometry-msgs, ros-galactic-imperial-driverless-interfaces, ros-galactic-nav-msgs
+Filename: ./packages/ros-galactic-path-generators_1.2.0-0focal_amd64.deb
+Size: 13864
+MD5sum: 173867e10bbab062d3da6f9c2b305ccb
+SHA1: 6ea10e030744197c50659efcc21be737c5e58583
+SHA256: aaf0a6f99e365ff02558e58c7267e7912ccf4b4ce6fe9bae84269d85a54faf80
+Section: misc
+Priority: optional
+Description: TODO: Package description
+
 Package: ros-galactic-racecar-description
 Version: 0.0.0-0focal
 Architecture: amd64
@@ -968,6 +1043,21 @@ Size: 21332
 MD5sum: b279bfa1816d1c8862ca87398436ea2b
 SHA1: 6c40b837d7bdd7c95d2f0f470abd9e9fb9add999
 SHA256: e7455ac0bc29c812c4d5f8ef08060e5477e45dc6e0b900378e918cf5561c3045
+Section: misc
+Priority: optional
+Description: A ROS2 package exposing our SLAM algorithms as ROS nodes
+
+Package: ros-galactic-slam-implementations
+Version: 1.2.0-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 136
+Depends: python3-numpy, python3-rtree, ros-galactic-imperial-driverless-interfaces, ros-galactic-tf2-ros
+Filename: ./packages/ros-galactic-slam-implementations_1.2.0-0focal_amd64.deb
+Size: 22836
+MD5sum: 0f604d3eff69d52edc22616fe99e6779
+SHA1: cd27bb2a7aabb505971b835c57952f55c5d1199d
+SHA256: a0ce6bb7b13d533e7a0957435b6bf2e009ca585ec39090f2c99a6a5bf014d14d
 Section: misc
 Priority: optional
 Description: A ROS2 package exposing our SLAM algorithms as ROS nodes
