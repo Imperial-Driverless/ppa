@@ -39,3 +39,6 @@ full_gazebo_simulator:
 
 vehicle_controllers:
   ubuntu: [ros-galactic-vehicle-controllers]
+
+fs_msgs:
+  ubuntu: [ros-galactic-fs-msgs]
