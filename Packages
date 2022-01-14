@@ -162,6 +162,36 @@ Section: misc
 Priority: optional
 Description: Package for controlling a car using keyboard
 
+Package: ros-galactic-fs-msgs
+Version: 0.1.0-0focal
+Architecture: amd64
+Maintainer: David Oort Alonso <davidoort@hotmail.com>
+Installed-Size: 819
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), ros-galactic-fastcdr, ros-galactic-builtin-interfaces, ros-galactic-geometry-msgs, ros-galactic-rosidl-default-runtime, ros-galactic-std-msgs
+Filename: ./packages/ros-galactic-fs-msgs_0.1.0-0focal_amd64.deb
+Size: 73640
+MD5sum: 2bbfc4a2c27bd709d252c6dac8c06cac
+SHA1: 94e6f5f7712cb547e909bcf908461ce6bc61b34f
+SHA256: dc1a78204a4a16dbecfa91d83c49e62c576901a9fb5b42414e2d2e3f68fb0539
+Section: misc
+Priority: optional
+Description: Common Formula Student ROS messages
+
+Package: ros-galactic-fsds-ros2-bridge
+Version: 0.0.1-0focal
+Architecture: amd64
+Maintainer: David Oort Alonso <autonomy@fsteamdelft.nl>
+Installed-Size: 11969
+Depends: libc6 (>= 2.14), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), ros-galactic-geometry-msgs, ros-galactic-image-transport, ros-galactic-nav-msgs, ros-galactic-rclcpp, ros-galactic-sensor-msgs, ros-galactic-std-msgs
+Filename: ./packages/ros-galactic-fsds-ros2-bridge_0.0.1-0focal_amd64.deb
+Size: 858924
+MD5sum: b1c4c5075ff658fb5dd37a2c40373d6e
+SHA1: 3e2663b7b84a35aae5c6ec8fe00a466154a250c6
+SHA256: 4b8cb91b2e3a910b4d64a52b9c5c9dc80d4050f61a035538c434be0e672039fe
+Section: misc
+Priority: optional
+Description: FSDS ROS2 bridge connecting 1 autonomous system to the simulated world
+
 Package: ros-galactic-full-gazebo-simulator
 Version: 0.1.0-0focal
 Architecture: amd64

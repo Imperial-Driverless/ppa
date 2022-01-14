@@ -33,6 +33,8 @@ sudo apt install <package-name>
 -  imperial-driverless-rosdep-index
 -  ros-galactic-ackermann-drive-teleop
 -  ros-galactic-car-keyop
+-  ros-galactic-fsds-ros2-bridge
+-  ros-galactic-fs-msgs
 -  ros-galactic-full-gazebo-simulator
 -  ros-galactic-id-track-utils
 -  ros-galactic-imperial-driverless-gazebo-plugins
