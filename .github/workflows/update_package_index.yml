@@ -30,7 +30,8 @@ jobs:
       - uses: actions/checkout@v2
       
       - name: Update packages
-        run: ./update_packages.sh
+        run: GPG_TTY=$(tty) ./update_packages.sh
+        
 
       - name: Commit and push changes
         run: |
