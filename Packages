@@ -649,10 +649,10 @@ Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
 Installed-Size: 91
 Depends: ros-galactic-car-keyop, ros-galactic-id-track-utils, ros-galactic-lightweight-lidar-only-simulator, ros-galactic-rviz2, ros-galactic-vehicle-descriptions
 Filename: ./packages/ros-galactic-imperial-driverless-utils_0.8.4-0focal_amd64.deb
-Size: 15172
-MD5sum: 6d0e2bf612d88ee2ca2edab22562aa27
-SHA1: d9b971b08537ee76d8173618cc43c392ae7b7040
-SHA256: 6c634e8cdeb7db5529e06b2cd2455a340c17f7c5f82618110a1e85eccc322325
+Size: 15184
+MD5sum: dfca66eae30a3a76edc4e182110bc9f3
+SHA1: 3629b0e48e54dc7aa9700b49105e2fb628090737
+SHA256: c7eb49ce8b031e8eb94a04ea4de7e7d1bdcd9789609e7e56b40bb72987367618
 Section: misc
 Priority: optional
 Description: Utilities for Imperial Driverless developers
