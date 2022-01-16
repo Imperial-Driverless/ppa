@@ -34,10 +34,8 @@ jobs:
           dpkg-scanpackages --multiversion . > Packages
           gzip -k -f Packages
           apt-ftparchive release . > Release
-          export GPG_TTY=$(tty)
-          echo -n "$GPG_PASSPHRASE" | gpg -vv --default-key "${EMAIL}" --pinentry-mode loopback --passphrase-fd 0 --batch --yes -abs -o - Release > Release.gpg
-          echo "first done"
-          echo -n "$GPG_PASSPHRASE" | gpg -vv --default-key "${EMAIL}" --passphrase-fd 0 --batch --yes --clearsign -o - Release > InRelease
+          echo -n "$GPG_PASSPHRASE" | gpg --default-key "${EMAIL}" --pinentry-mode loopback --passphrase-fd 0 --batch --yes -abs -o - Release > Release.gpg
+          echo -n "$GPG_PASSPHRASE" | gpg --default-key "${EMAIL}" --passphrase-fd 0 --batch --yes --clearsign -o - Release > InRelease
         env:
           EMAIL: imperial.driverless@gmail.com
           GPG_PASSPHRASE: ${{ secrets.GPG_KEY_PASSPHRASE }}
