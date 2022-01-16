@@ -31,10 +31,11 @@ jobs:
       
       - name: Update package indices
         run: |
-          dpkg-scanpackages --multiversion . > Packages &&
-          gzip -k -f Packages &&
-          apt-ftparchive release . > Release &&
-          gpg --default-key "${EMAIL}" --batch --yes -abs -o - Release > Release.gpg &&
+          dpkg-scanpackages --multiversion . > Packages
+          gzip -k -f Packages
+          apt-ftparchive release . > Release
+          export GPG_TTY=$(tty)
+          gpg --default-key "${EMAIL}" --batch --yes -abs -o - Release > Release.gpg
           gpg --default-key "${EMAIL}" --batch --yes --clearsign -o - Release > InRelease
         env:
           EMAIL: imperial.driverless@gmail.com
