@@ -35,9 +35,8 @@ jobs:
           gzip -k -f Packages
           apt-ftparchive release . > Release
           export GPG_TTY=$(tty)
-          ls
           gpg -vv --default-key "${EMAIL}" --passphrase "$GPG_PASSPHRASE" --batch --yes -abs -o - Release > Release.gpg
-          gpg -vv --default-key "${EMAIL}" --passphrase "$GPG_PASSPHRASE" --batch --yes --clearsign -o - Release > InRelease
+          echo -n "$GPG_SIGNING_KEY" | gpg -vv --default-key "${EMAIL}" --passphrase-fd 0 --batch --yes --clearsign -o - Release > InRelease
         env:
           EMAIL: imperial.driverless@gmail.com
           GPG_PASSPHRASE: ${{ secrets.GPG_KEY_PASSPHRASE }}
