@@ -29,9 +29,21 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       
-      - name: Update packages
-        run: GPG_TTY=$(tty) ./update_packages.sh
+      - name: Update package indices
+        run: |
+          dpkg-scanpackages --multiversion . > Packages &&
+          gzip -k -f Packages &&
+          apt-ftparchive release . > Release &&
+          gpg --default-key "${EMAIL}" --batch --yes -abs -o - Release > Release.gpg &&
+          gpg --default-key "${EMAIL}" --batch --yes --clearsign -o - Release > InRelease
+        env:
+          EMAIL: imperial.driverless@gmail.com
         
+      - name: Update README with the available packages
+        run: |
+          sed '/### Currently available packages/q' README.md > README.md.tmp
+          sed -n 's/^Package:/- /p' Packages | sort | uniq >> README.md.tmp
+          mv README.md.tmp README.md
 
       - name: Commit and push changes
         run: |
