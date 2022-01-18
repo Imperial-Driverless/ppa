@@ -657,6 +657,21 @@ Section: misc
 Priority: optional
 Description: Utilities for Imperial Driverless developers
 
+Package: ros-galactic-imperial-driverless-utils
+Version: 0.8.5-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 97
+Depends: ros-galactic-car-keyop, ros-galactic-id-track-utils, ros-galactic-lightweight-lidar-only-simulator, ros-galactic-rviz2, ros-galactic-vehicle-descriptions
+Filename: ./packages/ros-galactic-imperial-driverless-utils_0.8.5-0focal_amd64.deb
+Size: 16100
+MD5sum: 7eff69ea1fb663c813910c301d6284f4
+SHA1: ee198e6045f85130b922bcc1ab66919c40a80e72
+SHA256: db749ea9194b827e95fd7e37d3839fb87b2ba9bf06cb08ed7907ff1499574b05
+Section: misc
+Priority: optional
+Description: Utilities for Imperial Driverless developers
+
 Package: ros-galactic-lidar-only-cone-detector
 Version: 0.0.0-0focal
 Architecture: amd64
@@ -878,6 +893,21 @@ Size: 231056
 MD5sum: 44e70e1779e69cdc44b5de520a68f63d
 SHA1: 2c7cb4e77a90412d57d865fdcd77bf2ae35d6348
 SHA256: 46272d43c7a0454121cb94eac8b86367b8d153dcd828b1f6ca6bddb16889efe9
+Section: misc
+Priority: optional
+Description: A lightweight simulator for a car with lidar
+
+Package: ros-galactic-lightweight-lidar-only-simulator
+Version: 2.7.3-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 968
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-galactic-geometry-msgs, ros-galactic-nav-msgs, ros-galactic-nav2-map-server, ros-galactic-rclcpp, ros-galactic-sensor-msgs, ros-galactic-tf2, ros-galactic-tf2-geometry-msgs, ros-galactic-tf2-ros
+Filename: ./packages/ros-galactic-lightweight-lidar-only-simulator_2.7.3-0focal_amd64.deb
+Size: 230060
+MD5sum: 93f40b30be1afbef3632160c49de9aaf
+SHA1: c26fc0dece2b37673d297c8ab7cfbf887201ac1b
+SHA256: eacd49f61f304aae34d7a0725cada0c3e969bf9e6edd78beeacd3292b7c8be5b
 Section: misc
 Priority: optional
 Description: A lightweight simulator for a car with lidar
@@ -1328,6 +1358,21 @@ Size: 1140028
 MD5sum: ba70c7bd50172e738d0b62caeac028ec
 SHA1: 114628fe58e4e74b8199515ceab7ceec5d99aa0b
 SHA256: 89604c13d0609b39dab043231f8faadb407887da8d339c562d9c1bb31cafbd1c
+Section: misc
+Priority: optional
+Description: A package containing the descriptions of all vehicles simulated by Imperial Driverless
+
+Package: ros-galactic-vehicle-descriptions
+Version: 3.3.3-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 8048
+Depends: ros-galactic-joint-state-publisher, ros-galactic-robot-state-publisher, ros-galactic-rviz2, ros-galactic-xacro
+Filename: ./packages/ros-galactic-vehicle-descriptions_3.3.3-0focal_amd64.deb
+Size: 2446420
+MD5sum: 0a39eeeac9dd8c167cb3c21002781630
+SHA1: 6c49d8cb600ec8b9bf56300cec3095681f7cc31a
+SHA256: 8af13774c6e37a991f29b1c71a5a8846c0c3d7d715b283ee1fd70e83440bfd8b
 Section: misc
 Priority: optional
 Description: A package containing the descriptions of all vehicles simulated by Imperial Driverless
