@@ -252,6 +252,21 @@ Section: misc
 Priority: optional
 Description: A gazebo-based FS-AI simulator by Imperial Driverless
 
+Package: ros-galactic-full-gazebo-simulator
+Version: 0.3.1-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 261
+Depends: ros-galactic-ament-index-python, ros-galactic-gazebo-plugins, ros-galactic-gazebo-ros, ros-galactic-imperial-driverless-gazebo-plugins, ros-galactic-rclpy, ros-galactic-vehicle-controllers, ros-galactic-xacro
+Filename: ./packages/ros-galactic-full-gazebo-simulator_0.3.1-0focal_amd64.deb
+Size: 42880
+MD5sum: 94532db21b5ecfc19da3e905b88af242
+SHA1: aef6d9c034b9482a882d41c67098c86185e4f27e
+SHA256: fda3442ce353aacb534c5cf2994531cb2cfb0a9cfe9abba9c8427efab09800b7
+Section: misc
+Priority: optional
+Description: A gazebo-based FS-AI simulator by Imperial Driverless
+
 Package: ros-galactic-id-track-utils
 Version: 0.1.0-0focal
 Architecture: amd64
