@@ -46,6 +46,5 @@ sudo apt install <package-name>
 -  ros-galactic-path-generators
 -  ros-galactic-racecar-description
 -  ros-galactic-slam-implementations
--  ros-galactic-topic-tools
 -  ros-galactic-vehicle-controllers
 -  ros-galactic-vehicle-descriptions
