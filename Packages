@@ -463,6 +463,21 @@ Priority: optional
 Description: Utilities for Imperial Driverless developers
 
 Package: ros-galactic-imperial-driverless-utils
+Version: 0.10.0-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 112
+Depends: ros-galactic-car-keyop, ros-galactic-id-track-utils, ros-galactic-rviz2, ros-galactic-vehicle-descriptions
+Filename: ./packages/ros-galactic-imperial-driverless-utils_0.10.0-0focal_amd64.deb
+Size: 18648
+MD5sum: 449c1b67fb6381b65c8a792189a8522e
+SHA1: 0aaab57074913297c956a8c7f8df47ee52201666
+SHA256: 71893583cb299c8f79d5ae812d811387c19a64ad01e76aa7ec9515a52d145f94
+Section: misc
+Priority: optional
+Description: Utilities for Imperial Driverless developers
+
+Package: ros-galactic-imperial-driverless-utils
 Version: 0.2.0-0focal
 Architecture: amd64
 Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
@@ -732,6 +747,21 @@ Section: misc
 Priority: optional
 Description: Utilities for Imperial Driverless developers
 
+Package: ros-galactic-lidar-camera-fusion
+Version: 0.1.1-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 43
+Depends: ros-galactic-imperial-driverless-interfaces, ros-galactic-imperial-driverless-utils
+Filename: ./packages/ros-galactic-lidar-camera-fusion_0.1.1-0focal_amd64.deb
+Size: 7356
+MD5sum: 5cde1d57b450149f70b5d32d71191f19
+SHA1: fe9290fc870705eb66ec35258d0bb3d4b9e97aa7
+SHA256: 2387a066839ea2d85e37c336b8ede22387f2f5c3ec36d11ca33dcd375a1ea2bb
+Section: misc
+Priority: optional
+Description: TODO: Package description
+
 Package: ros-galactic-lidar-only-cone-detector
 Version: 0.0.0-0focal
 Architecture: amd64
@@ -803,6 +833,21 @@ Size: 7932
 MD5sum: 18d3feb8f195d506619727beeabbac50
 SHA1: c62d5beb71ffb5cae528f6635537d14f04fe9bfd
 SHA256: d684c50e85e97f03abba11dc19682d61e6b05b4d4983bebd0730f25629d1098e
+Section: misc
+Priority: optional
+Description: TODO: Package description
+
+Package: ros-galactic-lidar-only-cone-detector
+Version: 0.1.1-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 48
+Depends: ros-galactic-imperial-driverless-interfaces
+Filename: ./packages/ros-galactic-lidar-only-cone-detector_0.1.1-0focal_amd64.deb
+Size: 7916
+MD5sum: 4ced1e0d5b52044df93d2d63345389ac
+SHA1: e42c5ce18eafb80c5663f9ad96a18a637042bc68
+SHA256: dd7181cd21952f0cfe7dba3a8a642bb932a265e894481dea9f30db9b884b5fb9
 Section: misc
 Priority: optional
 Description: TODO: Package description
@@ -1313,6 +1358,21 @@ Size: 26920
 MD5sum: 0ac30e90526197537ebb9cdb44006bdc
 SHA1: ce35858ee1a0397cd5472715b9def82c76a3c477
 SHA256: 623a419e920ca922efff7c91c4ca98341f99bd6ac960b35a4e151f6a39893167
+Section: misc
+Priority: optional
+Description: A ROS2 package exposing our SLAM algorithms as ROS nodes
+
+Package: ros-galactic-slam-implementations
+Version: 2.0.1-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 183
+Depends: python3-numpy, python3-rtree, ros-galactic-imperial-driverless-interfaces, ros-galactic-imperial-driverless-utils, ros-galactic-tf2-ros
+Filename: ./packages/ros-galactic-slam-implementations_2.0.1-0focal_amd64.deb
+Size: 28904
+MD5sum: d2f2e6426b04d07836bc7395c776b3cf
+SHA1: 3de01cd21192871c96d16d4a42e656b171d1bed7
+SHA256: ddfcbcbf2c5e28440aef9dbce4266c05c4f7f10f09507b4e3e347bf5e10ecad0
 Section: misc
 Priority: optional
 Description: A ROS2 package exposing our SLAM algorithms as ROS nodes

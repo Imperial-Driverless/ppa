@@ -40,6 +40,7 @@ sudo apt install <package-name>
 -  ros-galactic-imperial-driverless-gazebo-plugins
 -  ros-galactic-imperial-driverless-interfaces
 -  ros-galactic-imperial-driverless-utils
+-  ros-galactic-lidar-camera-fusion
 -  ros-galactic-lidar-only-cone-detector
 -  ros-galactic-lightweight-lidar-only-simulator
 -  ros-galactic-path-followers
