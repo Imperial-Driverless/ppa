@@ -372,6 +372,21 @@ Section: misc
 Priority: optional
 Description: Utilities for procedurally generating tracks and converting between different formats.
 
+Package: ros-galactic-id-track-utils
+Version: 0.5.2-0focal
+Architecture: amd64
+Maintainer: Mateusz Lichota <mateusz@lichota.net>
+Installed-Size: 13416
+Depends: libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pil, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-scipy, python3-sip-dev, ros-galactic-ament-index-python, ros-galactic-geometry-msgs, ros-galactic-imperial-driverless-interfaces, ros-galactic-launch, ros-galactic-launch-ros, ros-galactic-rclpy, ros-galactic-rqt-gui, shiboken2
+Filename: ./packages/ros-galactic-id-track-utils_0.5.2-0focal_amd64.deb
+Size: 13336588
+MD5sum: e9a9dae09fa6189130f2245519896893
+SHA1: f6a1be411ade450d61e055c1190dca9adc4249dd
+SHA256: e4e1545d072de9c1e965d0979eff294ecf57fa5a752f0e99e76478682c7125b9
+Section: misc
+Priority: optional
+Description: Utilities for procedurally generating tracks and converting between different formats.
+
 Package: ros-galactic-imperial-driverless-gazebo-plugins
 Version: 2.0.0-0focal
 Architecture: amd64
@@ -488,6 +503,21 @@ Size: 18712
 MD5sum: 2f71c980db49678a0023e2a5c21d15f5
 SHA1: 92c49bd1e4bda5c1997ff68b8452fe61e79654bb
 SHA256: 5a5b32ee6c3d2a94e3f8488cbb952df034626a0705669b648d21829c2582ab95
+Section: misc
+Priority: optional
+Description: Utilities for Imperial Driverless developers
+
+Package: ros-galactic-imperial-driverless-utils
+Version: 0.10.2-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 112
+Depends: ros-galactic-car-keyop, ros-galactic-id-track-utils, ros-galactic-rviz2, ros-galactic-vehicle-descriptions
+Filename: ./packages/ros-galactic-imperial-driverless-utils_0.10.2-0focal_amd64.deb
+Size: 18808
+MD5sum: cd52c59348a31ff38e84e4ada0dbc52d
+SHA1: 374d7e6192bd4d0ced2ebb1800001b2a255d205e
+SHA256: 6ad58bbd2bcfae4e8b39f6faae764b96ce506e3782662313f0d62e6454fa619e
 Section: misc
 Priority: optional
 Description: Utilities for Imperial Driverless developers
@@ -1062,6 +1092,21 @@ Section: misc
 Priority: optional
 Description: A lightweight simulator for a car with lidar
 
+Package: ros-galactic-lightweight-lidar-only-simulator
+Version: 2.7.7-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 1004
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-galactic-geometry-msgs, ros-galactic-imperial-driverless-interfaces, ros-galactic-nav-msgs, ros-galactic-nav2-map-server, ros-galactic-rclcpp, ros-galactic-sensor-msgs, ros-galactic-tf2, ros-galactic-tf2-geometry-msgs, ros-galactic-tf2-ros
+Filename: ./packages/ros-galactic-lightweight-lidar-only-simulator_2.7.7-0focal_amd64.deb
+Size: 170324
+MD5sum: ab2b9fb16469e3ef7791abebdfc9d401
+SHA1: e0fedd2c352a58107f49a05586f598fd8f229d2a
+SHA256: 17627f3ccef0b46bb4b5cf51c7941c6a18f387196cbac5e488aa69447df42020
+Section: misc
+Priority: optional
+Description: A lightweight simulator for a car with lidar
+
 Package: ros-galactic-path-followers
 Version: 1.0.0-0focal
 Architecture: amd64
@@ -1403,6 +1448,21 @@ Size: 28904
 MD5sum: d2f2e6426b04d07836bc7395c776b3cf
 SHA1: 3de01cd21192871c96d16d4a42e656b171d1bed7
 SHA256: ddfcbcbf2c5e28440aef9dbce4266c05c4f7f10f09507b4e3e347bf5e10ecad0
+Section: misc
+Priority: optional
+Description: A ROS2 package exposing our SLAM algorithms as ROS nodes
+
+Package: ros-galactic-slam-implementations
+Version: 2.1.0-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 187
+Depends: python3-numpy, python3-rtree, ros-galactic-imperial-driverless-interfaces, ros-galactic-imperial-driverless-utils, ros-galactic-tf2-ros
+Filename: ./packages/ros-galactic-slam-implementations_2.1.0-0focal_amd64.deb
+Size: 30000
+MD5sum: ace46b13ea794875df516238e3b53857
+SHA1: 678de89f732f10716ba74d6fb84ef8078cd9722c
+SHA256: c8608c4257e4a5edef462efcfea89d8229fcfaee0ef5551a50c7a47ce73114fb
 Section: misc
 Priority: optional
 Description: A ROS2 package exposing our SLAM algorithms as ROS nodes
