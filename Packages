@@ -478,6 +478,21 @@ Priority: optional
 Description: Utilities for Imperial Driverless developers
 
 Package: ros-galactic-imperial-driverless-utils
+Version: 0.10.1-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 112
+Depends: ros-galactic-car-keyop, ros-galactic-id-track-utils, ros-galactic-rviz2, ros-galactic-vehicle-descriptions
+Filename: ./packages/ros-galactic-imperial-driverless-utils_0.10.1-0focal_amd64.deb
+Size: 18712
+MD5sum: 2f71c980db49678a0023e2a5c21d15f5
+SHA1: 92c49bd1e4bda5c1997ff68b8452fe61e79654bb
+SHA256: 5a5b32ee6c3d2a94e3f8488cbb952df034626a0705669b648d21829c2582ab95
+Section: misc
+Priority: optional
+Description: Utilities for Imperial Driverless developers
+
+Package: ros-galactic-imperial-driverless-utils
 Version: 0.2.0-0focal
 Architecture: amd64
 Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
@@ -758,6 +773,21 @@ Size: 7356
 MD5sum: 5cde1d57b450149f70b5d32d71191f19
 SHA1: fe9290fc870705eb66ec35258d0bb3d4b9e97aa7
 SHA256: 2387a066839ea2d85e37c336b8ede22387f2f5c3ec36d11ca33dcd375a1ea2bb
+Section: misc
+Priority: optional
+Description: TODO: Package description
+
+Package: ros-galactic-lidar-camera-fusion
+Version: 0.2.0-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 49
+Depends: python3-numpy, python3-rtree, ros-galactic-geometry-msgs, ros-galactic-imperial-driverless-interfaces, ros-galactic-imperial-driverless-utils, ros-galactic-rcl-interfaces, ros-galactic-tf2-ros
+Filename: ./packages/ros-galactic-lidar-camera-fusion_0.2.0-0focal_amd64.deb
+Size: 8768
+MD5sum: b6d4c1a30241e2239d043ebfaf5f0369
+SHA1: 0f4d225888a734a54ec7216867cf060199812a6d
+SHA256: a5550a519f73cb34a94915779ae04d9107242c3e752dc8b9219382cc04fd5638
 Section: misc
 Priority: optional
 Description: TODO: Package description
