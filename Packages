@@ -147,6 +147,21 @@ Section: misc
 Priority: optional
 Description: The ackermann_drive_teleop package
 
+Package: ros-galactic-camera
+Version: 0.0.0-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 53
+Depends: ros-galactic-imperial-driverless-interfaces
+Filename: ./packages/ros-galactic-camera_0.0.0-0focal_amd64.deb
+Size: 6756
+MD5sum: 39a57e41ab9aa63f9ec4f37f1e3515e7
+SHA1: 750461b40efdf85fdd12d49f7638af560799d714
+SHA256: f05b79223abc3d46f748c11359c79768566c3da779483d85bb616c7ca71281bb
+Section: misc
+Priority: optional
+Description: TODO: Package description
+
 Package: ros-galactic-car-keyop
 Version: 2.0.0-0focal
 Architecture: amd64
