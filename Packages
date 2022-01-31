@@ -402,6 +402,21 @@ Section: misc
 Priority: optional
 Description: Utilities for procedurally generating tracks and converting between different formats.
 
+Package: ros-galactic-id-track-utils
+Version: 0.5.3-0focal
+Architecture: amd64
+Maintainer: Mateusz Lichota <mateusz@lichota.net>
+Installed-Size: 13416
+Depends: libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pil, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-scipy, python3-sip-dev, ros-galactic-ament-index-python, ros-galactic-geometry-msgs, ros-galactic-imperial-driverless-interfaces, ros-galactic-launch, ros-galactic-launch-ros, ros-galactic-rclpy, ros-galactic-rqt-gui, shiboken2
+Filename: ./packages/ros-galactic-id-track-utils_0.5.3-0focal_amd64.deb
+Size: 13336460
+MD5sum: f06dd00e2fc9f257e6aaa76053e4aa92
+SHA1: af8e63c314ff6c6ef80f424dd0e7a91502652e92
+SHA256: 72b109f9f6a706ace378e721951d4d4cbd519ec15385da16d0455be95f2cfc90
+Section: misc
+Priority: optional
+Description: Utilities for procedurally generating tracks and converting between different formats.
+
 Package: ros-galactic-imperial-driverless-gazebo-plugins
 Version: 2.0.0-0focal
 Architecture: amd64
@@ -578,6 +593,21 @@ Size: 19044
 MD5sum: e5878d818ab49db63db481dd051c8aa4
 SHA1: a04304da6ed648c1e52b3d52fc34e06c48e0e06e
 SHA256: e25c2536dc9f45b22a3a7ca280bf2843e7d9d87b90e361a246bd0fcfb7cada39
+Section: misc
+Priority: optional
+Description: Utilities for Imperial Driverless developers
+
+Package: ros-galactic-imperial-driverless-utils
+Version: 0.12.0-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 131
+Depends: ros-galactic-car-keyop, ros-galactic-id-track-utils, ros-galactic-rviz2, ros-galactic-vehicle-descriptions
+Filename: ./packages/ros-galactic-imperial-driverless-utils_0.12.0-0focal_amd64.deb
+Size: 20548
+MD5sum: 8962c1ebace52485a9d2f655f7c345f6
+SHA1: 4b87f52dcdd9d010a1fd2994df69f6e49ace8018
+SHA256: 9f52409f06a06da361e3e23a7a5d480944596ce7a410bbf620f8fbbf19f25bdb
 Section: misc
 Priority: optional
 Description: Utilities for Imperial Driverless developers
@@ -1358,6 +1388,21 @@ Size: 13872
 MD5sum: 2c49027ccb4b0ddf24289bf4989ddf83
 SHA1: 0db4c08cf1e160d159d4e429be290dba849a96cb
 SHA256: d55320d688470bf6f339773523979be98de7fb91943228e42695ca9c0589e10a
+Section: misc
+Priority: optional
+Description: TODO: Package description
+
+Package: ros-galactic-path-generators
+Version: 1.2.2-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 69
+Depends: ros-galactic-geometry-msgs, ros-galactic-imperial-driverless-interfaces, ros-galactic-nav-msgs
+Filename: ./packages/ros-galactic-path-generators_1.2.2-0focal_amd64.deb
+Size: 14300
+MD5sum: a244a7ff6c53b9bf23105613f8b3322a
+SHA1: 01e15667fa2139929934f5018817030a4606dcd2
+SHA256: 49f605be871cffdc3fe46fd4eb6d483489b4015d3359ae4fa416955fb1c60cf0
 Section: misc
 Priority: optional
 Description: TODO: Package description
