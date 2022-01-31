@@ -942,6 +942,21 @@ Section: misc
 Priority: optional
 Description: TODO: Package description
 
+Package: ros-galactic-lidar-camera-fusion
+Version: 0.3.0-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 58
+Depends: python3-numpy, python3-rtree, ros-galactic-geometry-msgs, ros-galactic-imperial-driverless-interfaces, ros-galactic-imperial-driverless-utils, ros-galactic-rcl-interfaces, ros-galactic-tf2-ros
+Filename: ./packages/ros-galactic-lidar-camera-fusion_0.3.0-0focal_amd64.deb
+Size: 10372
+MD5sum: b012b7939948b032223daef491df7590
+SHA1: cafcc64c6454dff0c6b1c37e50bd1a7b863551b4
+SHA256: 90adc84de26eeda510d111b84bdb32fa7c79b2bd7fa36ab16bbdbebe16d78e10
+Section: misc
+Priority: optional
+Description: TODO: Package description
+
 Package: ros-galactic-lidar-only-cone-detector
 Version: 0.0.0-0focal
 Architecture: amd64
