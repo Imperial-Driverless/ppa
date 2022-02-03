@@ -42,3 +42,6 @@ vehicle_controllers:
 
 fs_msgs:
   ubuntu: [ros-galactic-fs-msgs]
+
+id_rviz_plugins:
+  ubuntu: [ros-galactic-id-rviz-plugins]
