@@ -207,6 +207,21 @@ Section: misc
 Priority: optional
 Description: FSDS ROS2 bridge connecting 1 autonomous system to the simulated world
 
+Package: ros-galactic-fsds-ros2-bridge
+Version: 0.0.2-0focal
+Architecture: amd64
+Maintainer: David Oort Alonso <autonomy@fsteamdelft.nl>
+Installed-Size: 12138
+Depends: libc6 (>= 2.14), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), ros-galactic-geometry-msgs, ros-galactic-image-transport, ros-galactic-nav-msgs, ros-galactic-rclcpp, ros-galactic-sensor-msgs, ros-galactic-std-msgs
+Filename: ./packages/ros-galactic-fsds-ros2-bridge_0.0.2-0focal_amd64.deb
+Size: 872336
+MD5sum: eec72c2a3c2bed63ae9ebe0eae144fb9
+SHA1: 660c9d6b0f2ccfd1d2af2fc4f247d693274632e6
+SHA256: 16b8545f525d68e3c5ebbc9801b6108923e6dc8071cfa5d46677a5d17c586514
+Section: misc
+Priority: optional
+Description: FSDS ROS2 bridge connecting 1 autonomous system to the simulated world
+
 Package: ros-galactic-full-gazebo-simulator
 Version: 0.1.0-0focal
 Architecture: amd64
@@ -421,13 +436,13 @@ Package: ros-galactic-imperial-driverless-gazebo-plugins
 Version: 2.0.0-0focal
 Architecture: amd64
 Maintainer: Mateusz Lichota <mateusz@lichota.net>
-Installed-Size: 832
-Depends: libc6 (>= 2.14), libgazebo11 (>= 11.9.1), libgcc-s1 (>= 3.0), libsdformat9 (>= 9.7.0), libstdc++6 (>= 9), gazebo11, ros-galactic-ament-index-cpp, ros-galactic-gazebo-dev, ros-galactic-gazebo-ros, ros-galactic-geometry-msgs, ros-galactic-imperial-driverless-interfaces, ros-galactic-rclcpp, ros-galactic-tf2, ros-galactic-tf2-ros
+Installed-Size: 840
+Depends: libc6 (>= 2.14), libgazebo11 (>= 11.9.0), libgcc-s1 (>= 3.0), libsdformat9 (>= 9.7.0), libstdc++6 (>= 9), gazebo11, ros-galactic-ament-index-cpp, ros-galactic-gazebo-dev, ros-galactic-gazebo-ros, ros-galactic-geometry-msgs, ros-galactic-imperial-driverless-interfaces, ros-galactic-rclcpp, ros-galactic-tf2, ros-galactic-tf2-ros
 Filename: ./packages/ros-galactic-imperial-driverless-gazebo-plugins_2.0.0-0focal_amd64.deb
-Size: 162232
-MD5sum: 1015e8dc0dab5770cd2a89921b64dba1
-SHA1: c3bc3fed6e330e983286c4bc3789d6676e8dcdf9
-SHA256: b013eccfe3fcd9359dc8503fba9aa6baae202bd538bbd1568efd4205ba8d9df0
+Size: 163884
+MD5sum: b7f915e077c1206799655cb441973907
+SHA1: b8827a5855daab213db91aeaf27775c37f04011e
+SHA256: 48763fb475dca482b697ae67368a5aa0a184eebe8b4382330602d186c2a165f4
 Section: misc
 Priority: optional
 Description: Gazebo plugins for full gazebo simulator.
@@ -1332,6 +1347,21 @@ Section: misc
 Priority: optional
 Description: Algorithms for following a given path
 
+Package: ros-galactic-path-followers
+Version: 3.1.0-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 1594
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-galactic-console-bridge-vendor, ros-galactic-orocos-kdl, ros-galactic-geometry-msgs, ros-galactic-nav-msgs, ros-galactic-nav2-controller, ros-galactic-rclcpp
+Filename: ./packages/ros-galactic-path-followers_3.1.0-0focal_amd64.deb
+Size: 177760
+MD5sum: 83929184d44ed6d1876a4a803327f934
+SHA1: 02a5a81ebd4580a54ea3e6e3ffbf092516953fb6
+SHA256: 2c04bfab7aa2b5cc89c127ab9ee1e799fe2a72bce5cf37aff454c587016d0dc4
+Section: misc
+Priority: optional
+Description: Algorithms for following a given path
+
 Package: ros-galactic-path-generators
 Version: 1.0.0-0focal
 Architecture: amd64
@@ -1658,6 +1688,21 @@ Size: 29748
 MD5sum: 1f155db434647c40f7b1c89d7700a060
 SHA1: 118f3763fd053dd9b89e80b2b164f7dc43875654
 SHA256: 17704688e3e7efcee7e6955dd7cc331c562d11c8a531a067312fc51e50ac93b0
+Section: misc
+Priority: optional
+Description: A ROS2 package exposing our SLAM algorithms as ROS nodes
+
+Package: ros-galactic-slam-implementations
+Version: 2.3.0-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 200
+Depends: python3-numpy, python3-rtree, ros-galactic-imperial-driverless-interfaces, ros-galactic-imperial-driverless-utils, ros-galactic-tf2-ros
+Filename: ./packages/ros-galactic-slam-implementations_2.3.0-0focal_amd64.deb
+Size: 34140
+MD5sum: 79f3c8cdb25a71c44d0928119f45bcc6
+SHA1: ac9b6f6c2ea79453c5e3d59162110d494e6a44b5
+SHA256: e71fc6eeb26faeab9cd3f4d1482e88d51ad79a67db2dbbcafbeede99f128b82f
 Section: misc
 Priority: optional
 Description: A ROS2 package exposing our SLAM algorithms as ROS nodes
