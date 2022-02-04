@@ -297,6 +297,21 @@ Section: misc
 Priority: optional
 Description: A gazebo-based FS-AI simulator by Imperial Driverless
 
+Package: ros-galactic-id-rviz-plugins
+Version: 0.0.0-0focal
+Architecture: amd64
+Maintainer: Jakub <j-michalski@outlook.com>
+Installed-Size: 553
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.12.2), libstdc++6 (>= 9), ros-galactic-console-bridge-vendor, ros-galactic-imperial-driverless-interfaces, ros-galactic-rviz-common, ros-galactic-rviz-default-plugins, ros-galactic-rviz-rendering
+Filename: ./packages/ros-galactic-id-rviz-plugins_0.0.0-0focal_amd64.deb
+Size: 100472
+MD5sum: 2d9046545d63c28413a965f0ad2b9025
+SHA1: 0c7f71371350ff3419b9f5c70dfd9b921be70641
+SHA256: 48d49f0090c8cac39f0048218dac512ec1cd47f1735faf10cead3aa31d8ee0ee
+Section: misc
+Priority: optional
+Description: Rviz2 plugin to visualise Imperial Driverless messages
+
 Package: ros-galactic-id-track-utils
 Version: 0.1.0-0focal
 Architecture: amd64
@@ -623,6 +638,21 @@ Size: 20548
 MD5sum: 8962c1ebace52485a9d2f655f7c345f6
 SHA1: 4b87f52dcdd9d010a1fd2994df69f6e49ace8018
 SHA256: 9f52409f06a06da361e3e23a7a5d480944596ce7a410bbf620f8fbbf19f25bdb
+Section: misc
+Priority: optional
+Description: Utilities for Imperial Driverless developers
+
+Package: ros-galactic-imperial-driverless-utils
+Version: 0.13.1-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 132
+Depends: ros-galactic-car-keyop, ros-galactic-id-rviz-plugins, ros-galactic-id-track-utils, ros-galactic-rviz2, ros-galactic-vehicle-descriptions
+Filename: ./packages/ros-galactic-imperial-driverless-utils_0.13.1-0focal_amd64.deb
+Size: 20268
+MD5sum: af15018232c3ebaaa574a9600a7b56e5
+SHA1: 09d82c45838b0ef79bcf79f987eb00f2944e5341
+SHA256: 20e6f25ff231c27c3c51f6c1a4e794f3bbc711f783cdebefb6ca4ac637a572a5
 Section: misc
 Priority: optional
 Description: Utilities for Imperial Driverless developers
@@ -1058,6 +1088,21 @@ Size: 7916
 MD5sum: 4ced1e0d5b52044df93d2d63345389ac
 SHA1: e42c5ce18eafb80c5663f9ad96a18a637042bc68
 SHA256: dd7181cd21952f0cfe7dba3a8a642bb932a265e894481dea9f30db9b884b5fb9
+Section: misc
+Priority: optional
+Description: TODO: Package description
+
+Package: ros-galactic-lidar-only-cone-detector
+Version: 0.1.2-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 50
+Depends: ros-galactic-imperial-driverless-interfaces
+Filename: ./packages/ros-galactic-lidar-only-cone-detector_0.1.2-0focal_amd64.deb
+Size: 8180
+MD5sum: c8d81d39f1100237d4e46aedac217d93
+SHA1: b06600d17c305a31a4700490afc22003a752e2d9
+SHA256: 943be1ddb8974bda3abba7f653603a2da17dfe957d4b55a59c42a50cfb071e12
 Section: misc
 Priority: optional
 Description: TODO: Package description

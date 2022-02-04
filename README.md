@@ -37,6 +37,7 @@ sudo apt install <package-name>
 -  ros-galactic-fs-msgs
 -  ros-galactic-fsds-ros2-bridge
 -  ros-galactic-full-gazebo-simulator
+-  ros-galactic-id-rviz-plugins
 -  ros-galactic-id-track-utils
 -  ros-galactic-imperial-driverless-gazebo-plugins
 -  ros-galactic-imperial-driverless-interfaces
