@@ -15,7 +15,7 @@ fpm --input-type dir \
     --version $VERSION \
     --architecture all \
     --deb-priority required \
-    -m "Imperial Driverless <imperial.driverless@gmail.com>" \
+    -m "Imperial Driverless <driverless@imperial.ac.uk>" \
     --package $DEB_FILE \
     $FILENAME=/etc/ros/rosdep/sources.list.d/
 
