@@ -45,3 +45,11 @@ fs_msgs:
 
 id_rviz_plugins:
   ubuntu: [ros-galactic-id-rviz-plugins]
+
+fsds_ros2_bridge:
+  ubuntu: [ros-galactic-fsds-ros2-bridge]
+
+python3-rtree:
+  ubuntu:
+    pip:
+      packages: [rtree]
