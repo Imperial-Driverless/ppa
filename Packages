@@ -194,6 +194,20 @@ Section: misc
 Priority: optional
 Description: Package for controlling a car using keyboard
 
+Package: ros-galactic-common-types
+Version: 0.0.1-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 29
+Filename: ./packages/ros-galactic-common-types_0.0.1-0focal_amd64.deb
+Size: 3156
+MD5sum: 9ba592f674800d32632e48fe84b0ecfb
+SHA1: 9b3708497c61c7e1d9a613ee72564aefad5c5495
+SHA256: 63c6dbd414e9e681e68c7b69e454ed1054850e7de9f11dd115f12701286daf83
+Section: misc
+Priority: optional
+Description: The common types used in python packages
+
 Package: ros-galactic-fs-msgs
 Version: 0.1.0-0focal
 Architecture: amd64
@@ -313,6 +327,20 @@ SHA256: fda3442ce353aacb534c5cf2994531cb2cfb0a9cfe9abba9c8427efab09800b7
 Section: misc
 Priority: optional
 Description: A gazebo-based FS-AI simulator by Imperial Driverless
+
+Package: ros-galactic-id-common-types
+Version: 0.0.2-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 29
+Filename: ./packages/ros-galactic-id-common-types_0.0.2-0focal_amd64.deb
+Size: 3164
+MD5sum: 07a58e2165636c7459283dd5858a1059
+SHA1: a12fba1244d73d7a8ab51a1289c2c70ccc5090a1
+SHA256: a785fd5154d2c5cec35994ec5d10180434f74321fe84577f48693b04fe1d351b
+Section: misc
+Priority: optional
+Description: The common types used in python packages
 
 Package: ros-galactic-id-rviz-plugins
 Version: 0.0.0-0focal
