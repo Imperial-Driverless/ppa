@@ -597,6 +597,21 @@ Section: misc
 Priority: optional
 Description: The interfaces used for communication between the subteams
 
+Package: ros-galactic-imperial-driverless-interfaces
+Version: 1.0.4-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 844
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), ros-galactic-fastcdr, ros-galactic-builtin-interfaces, ros-galactic-geometry-msgs, ros-galactic-rosidl-default-runtime, ros-galactic-std-msgs
+Filename: ./packages/ros-galactic-imperial-driverless-interfaces_1.0.4-0focal_amd64.deb
+Size: 70416
+MD5sum: daaff44ae4076408c076bb4324b46c6d
+SHA1: d69610f7eddc5b5225587ec4d7891e9e53d50f5b
+SHA256: 14717c0392fe14d41c720ef904cc430b7f18be779701f32293f7a6e7dc4c8cd1
+Section: misc
+Priority: optional
+Description: The interfaces used for communication between the subteams
+
 Package: ros-galactic-imperial-driverless-utils
 Version: 0.0.0-0focal
 Architecture: amd64
