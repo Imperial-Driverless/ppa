@@ -56,3 +56,8 @@ python3-rtree:
   ubuntu:
     pip:
       packages: [rtree]
+
+python3-spatialmath:
+  ubuntu:
+    pip:
+      packages: [spatialmath-python]
