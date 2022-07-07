@@ -342,6 +342,20 @@ Section: misc
 Priority: optional
 Description: The common types used in python packages
 
+Package: ros-galactic-id-common-types
+Version: 0.0.3-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 29
+Filename: ./packages/ros-galactic-id-common-types_0.0.3-0focal_amd64.deb
+Size: 3176
+MD5sum: 2e59fdb167929d3e3e25f05c3db7eb19
+SHA1: 9d2f14752b36e1534989eadb2012fa39e447e8bd
+SHA256: 96a2459a0ab72246b0c4d6fb620b9c288d53d87b7f64de799401bdc6d011dd36
+Section: misc
+Priority: optional
+Description: The common types used in python packages
+
 Package: ros-galactic-id-rviz-plugins
 Version: 0.0.0-0focal
 Architecture: amd64
