@@ -550,111 +550,6 @@ Section: misc
 Priority: optional
 Description: Gazebo plugins for full gazebo simulator.
 
-Package: ros-galactic-imperial-driverless-interfaces
-Version: 0.0.0-0focal
-Architecture: amd64
-Maintainer: mateusz <mateusz@lichota.net>
-Installed-Size: 555
-Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), ros-galactic-fastcdr, ros-galactic-builtin-interfaces, ros-galactic-rosidl-default-runtime, ros-galactic-std-msgs
-Filename: ./packages/ros-galactic-imperial-driverless-interfaces_0.0.0-0focal_amd64.deb
-Size: 48048
-MD5sum: e37e7f204ce41a56b36904d32b09b76c
-SHA1: 6cd70280a74c366a210ab02cb11623d7b480dff6
-SHA256: 3f417ddf2627bf58805f6aab6b1edb6799e70daeb47f8e1930b12e0e8d02c134
-Section: misc
-Priority: optional
-Description: The intterfaces used for communication between the subteams
-
-Package: ros-galactic-imperial-driverless-interfaces
-Version: 0.1.0-0focal
-Architecture: amd64
-Maintainer: mateusz <mateusz@lichota.net>
-Installed-Size: 761
-Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), ros-galactic-fastcdr, ros-galactic-builtin-interfaces, ros-galactic-rosidl-default-runtime, ros-galactic-std-msgs
-Filename: ./packages/ros-galactic-imperial-driverless-interfaces_0.1.0-0focal_amd64.deb
-Size: 61612
-MD5sum: cd18c50298697570ea8070e6bac22c2b
-SHA1: 4c88eefcb4174711a5eca5bb82cd29d2feeea8f1
-SHA256: 26ba46c348558fedafe195f7e8dd46fb90c4cd7247115782b19fb28544f42373
-Section: misc
-Priority: optional
-Description: The interfaces used for communication between the subteams
-
-Package: ros-galactic-imperial-driverless-interfaces
-Version: 1.0.0-0focal
-Architecture: amd64
-Maintainer: mateusz <mateusz@lichota.net>
-Installed-Size: 802
-Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), ros-galactic-fastcdr, ros-galactic-builtin-interfaces, ros-galactic-geometry-msgs, ros-galactic-rosidl-default-runtime, ros-galactic-std-msgs
-Filename: ./packages/ros-galactic-imperial-driverless-interfaces_1.0.0-0focal_amd64.deb
-Size: 62188
-MD5sum: 147f4d516a8304ab99b52635e6ca8291
-SHA1: 95fb4cf794f886008cb521ed7ef63bf0ee8e5a15
-SHA256: 220d063bb81412a8e0949afda5e75e0a217ef97310fd870e39d130f13432f8ed
-Section: misc
-Priority: optional
-Description: The interfaces used for communication between the subteams
-
-Package: ros-galactic-imperial-driverless-interfaces
-Version: 1.0.1-0focal
-Architecture: amd64
-Maintainer: mateusz <mateusz@lichota.net>
-Installed-Size: 860
-Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), ros-galactic-fastcdr, ros-galactic-builtin-interfaces, ros-galactic-geometry-msgs, ros-galactic-rosidl-default-runtime, ros-galactic-std-msgs
-Filename: ./packages/ros-galactic-imperial-driverless-interfaces_1.0.1-0focal_amd64.deb
-Size: 72104
-MD5sum: 6d4ebc32309ed84e037ffcf2c9325f1c
-SHA1: 9b5142363be63422e437bf8567738e71966d5349
-SHA256: 284acb26e9d107ea7a5d3ad55290012049aad6afdcaee8e287dd866278b30f5f
-Section: misc
-Priority: optional
-Description: The interfaces used for communication between the subteams
-
-Package: ros-galactic-imperial-driverless-interfaces
-Version: 1.0.2-0focal
-Architecture: amd64
-Maintainer: mateusz <mateusz@lichota.net>
-Installed-Size: 860
-Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), ros-galactic-fastcdr, ros-galactic-builtin-interfaces, ros-galactic-geometry-msgs, ros-galactic-rosidl-default-runtime, ros-galactic-std-msgs
-Filename: ./packages/ros-galactic-imperial-driverless-interfaces_1.0.2-0focal_amd64.deb
-Size: 72200
-MD5sum: 58756dd08ce304753edf27797f67fbf6
-SHA1: e2a35fb1b07bc7b9b8e5b85cfca51dce403e4d69
-SHA256: 1ea8f812138146387c0955d142ff1c2519acb82fbe7fb638d75eebf283d52936
-Section: misc
-Priority: optional
-Description: The interfaces used for communication between the subteams
-
-Package: ros-galactic-imperial-driverless-interfaces
-Version: 1.0.3-0focal
-Architecture: amd64
-Maintainer: mateusz <mateusz@lichota.net>
-Installed-Size: 841
-Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), ros-galactic-fastcdr, ros-galactic-builtin-interfaces, ros-galactic-geometry-msgs, ros-galactic-rosidl-default-runtime, ros-galactic-std-msgs
-Filename: ./packages/ros-galactic-imperial-driverless-interfaces_1.0.3-0focal_amd64.deb
-Size: 69952
-MD5sum: 2b75a2a85c54f8d52470850b00c2c3da
-SHA1: 8f14093e0325d00e5a6a705165178b74f1e40522
-SHA256: d1e984ab34fcd21da5746256dcd84becc7260e81ac86317000a4e475df870913
-Section: misc
-Priority: optional
-Description: The interfaces used for communication between the subteams
-
-Package: ros-galactic-imperial-driverless-interfaces
-Version: 1.0.4-0focal
-Architecture: amd64
-Maintainer: mateusz <mateusz@lichota.net>
-Installed-Size: 844
-Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), ros-galactic-fastcdr, ros-galactic-builtin-interfaces, ros-galactic-geometry-msgs, ros-galactic-rosidl-default-runtime, ros-galactic-std-msgs
-Filename: ./packages/ros-galactic-imperial-driverless-interfaces_1.0.4-0focal_amd64.deb
-Size: 70416
-MD5sum: daaff44ae4076408c076bb4324b46c6d
-SHA1: d69610f7eddc5b5225587ec4d7891e9e53d50f5b
-SHA256: 14717c0392fe14d41c720ef904cc430b7f18be779701f32293f7a6e7dc4c8cd1
-Section: misc
-Priority: optional
-Description: The interfaces used for communication between the subteams
-
 Package: ros-galactic-imperial-driverless-utils
 Version: 0.0.0-0focal
 Architecture: amd64
@@ -1101,6 +996,21 @@ Size: 26924
 MD5sum: 209c8effd4e56869bb249192ff87cb02
 SHA1: 7273619d82cba02393a9963be81d841046c40e88
 SHA256: f58362619c6e55877dd3c9ebb8e0333e40d449215af9c1eeb783491562221611
+Section: misc
+Priority: optional
+Description: Utilities for Imperial Driverless developers
+
+Package: ros-galactic-imperial-driverless-utils
+Version: 1.0.2-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 156
+Depends: ros-galactic-car-keyop, ros-galactic-id-msgs, ros-galactic-id-rviz-plugins, ros-galactic-id-track-utils, ros-galactic-rviz2, ros-galactic-vehicle-descriptions
+Filename: ./packages/ros-galactic-imperial-driverless-utils_1.0.2-0focal_amd64.deb
+Size: 25356
+MD5sum: e3f3e9d581bfdb5f9b62b448d1a36655
+SHA1: 718784b7616bd41cb563e3064bde32c8c0c84c4e
+SHA256: 06f7246b6e2435f7878992bf1435148ee87fbf43b6ecf88d5ff72fd856186c5b
 Section: misc
 Priority: optional
 Description: Utilities for Imperial Driverless developers
