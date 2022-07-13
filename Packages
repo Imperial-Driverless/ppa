@@ -370,6 +370,21 @@ Section: misc
 Priority: optional
 Description: The common types used in python packages
 
+Package: ros-galactic-id-msgs
+Version: 1.0.6-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 698
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), ros-galactic-fastcdr, ros-galactic-builtin-interfaces, ros-galactic-geometry-msgs, ros-galactic-rosidl-default-runtime, ros-galactic-std-msgs
+Filename: ./packages/ros-galactic-id-msgs_1.0.6-0focal_amd64.deb
+Size: 62212
+MD5sum: 35dd2d2f63eaccaedd6b9c4abfc1a1df
+SHA1: 6f69b023daf1ed2e39e1cfe37b8fc377a822cf28
+SHA256: 637422aa85ce22bf2476abf07e5db1e88acef2122dca25018b218d851ce663a8
+Section: misc
+Priority: optional
+Description: The message types defining the interfaces between our nodes
+
 Package: ros-galactic-id-rviz-plugins
 Version: 0.0.0-0focal
 Architecture: amd64
