@@ -535,6 +535,21 @@ Section: misc
 Priority: optional
 Description: Utilities for procedurally generating tracks and converting between different formats.
 
+Package: ros-galactic-id-track-utils
+Version: 0.5.4-0focal
+Architecture: amd64
+Maintainer: Mateusz Lichota <mateusz@lichota.net>
+Installed-Size: 13416
+Depends: libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pil, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-scipy, python3-sip-dev, ros-galactic-ament-index-python, ros-galactic-geometry-msgs, ros-galactic-id-msgs, ros-galactic-launch, ros-galactic-launch-ros, ros-galactic-rclpy, ros-galactic-rqt-gui, shiboken2
+Filename: ./packages/ros-galactic-id-track-utils_0.5.4-0focal_amd64.deb
+Size: 13336052
+MD5sum: 7e75dcae812d1cdfae9728db065072c3
+SHA1: 3a5d95a30f6d923216f7becc45e754f8a0afbb2e
+SHA256: d27a0fd0fd78ea906e8521b328c2debe3d2b59650cb5047fd0eb15a98099565d
+Section: misc
+Priority: optional
+Description: Utilities for procedurally generating tracks and converting between different formats.
+
 Package: ros-galactic-imperial-driverless-gazebo-plugins
 Version: 2.0.0-0focal
 Architecture: amd64
@@ -1004,13 +1019,13 @@ Package: ros-galactic-imperial-driverless-utils
 Version: 1.0.2-0focal
 Architecture: amd64
 Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
-Installed-Size: 156
+Installed-Size: 155
 Depends: ros-galactic-car-keyop, ros-galactic-id-msgs, ros-galactic-id-rviz-plugins, ros-galactic-id-track-utils, ros-galactic-rviz2, ros-galactic-vehicle-descriptions
 Filename: ./packages/ros-galactic-imperial-driverless-utils_1.0.2-0focal_amd64.deb
-Size: 25356
-MD5sum: e3f3e9d581bfdb5f9b62b448d1a36655
-SHA1: 718784b7616bd41cb563e3064bde32c8c0c84c4e
-SHA256: 06f7246b6e2435f7878992bf1435148ee87fbf43b6ecf88d5ff72fd856186c5b
+Size: 25384
+MD5sum: d66358e5f5fc76a59a87749ced974e7e
+SHA1: 9237c506cc7c9f06f5d58afc2fda859cc81c3456
+SHA256: f72902ddd29a322403aaf96aed088f03a05d57d542909043b8d63785e5a3f48d
 Section: misc
 Priority: optional
 Description: Utilities for Imperial Driverless developers
