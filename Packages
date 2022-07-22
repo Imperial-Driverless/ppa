@@ -564,6 +564,21 @@ Section: misc
 Priority: optional
 Description: Utilities for procedurally generating tracks and converting between different formats.
 
+Package: ros-galactic-id-track-utils
+Version: 0.6.0-0focal
+Architecture: amd64
+Maintainer: Mateusz Lichota <mateusz@lichota.net>
+Installed-Size: 13416
+Depends: libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pil, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-scipy, python3-sip-dev, ros-galactic-ament-index-python, ros-galactic-geometry-msgs, ros-galactic-id-msgs, ros-galactic-launch, ros-galactic-launch-ros, ros-galactic-rclpy, ros-galactic-rqt-gui, shiboken2
+Filename: ./packages/ros-galactic-id-track-utils_0.6.0-0focal_amd64.deb
+Size: 13336028
+MD5sum: 779b09becdd9cdfbf1d1773298996e9a
+SHA1: 6f4ecb5932e0ec6fd7c1c67305721452855c387a
+SHA256: 43b193afbd2ab2dd38c622a4e4119d0b2585e8f5b159112b8cfae85b05ce606a
+Section: misc
+Priority: optional
+Description: Utilities for procedurally generating tracks and converting between different formats.
+
 Package: ros-galactic-imperial-driverless-gazebo-plugins
 Version: 2.0.0-0focal
 Architecture: amd64
@@ -1040,6 +1055,21 @@ Size: 25384
 MD5sum: d66358e5f5fc76a59a87749ced974e7e
 SHA1: 9237c506cc7c9f06f5d58afc2fda859cc81c3456
 SHA256: f72902ddd29a322403aaf96aed088f03a05d57d542909043b8d63785e5a3f48d
+Section: misc
+Priority: optional
+Description: Utilities for Imperial Driverless developers
+
+Package: ros-galactic-imperial-driverless-utils
+Version: 1.0.3-0focal
+Architecture: amd64
+Maintainer: Imperial Driverless <imperial.driverless@gmail.com>
+Installed-Size: 154
+Depends: ros-galactic-car-keyop, ros-galactic-id-msgs, ros-galactic-id-rviz-plugins, ros-galactic-id-track-utils, ros-galactic-rviz2, ros-galactic-vehicle-descriptions
+Filename: ./packages/ros-galactic-imperial-driverless-utils_1.0.3-0focal_amd64.deb
+Size: 25268
+MD5sum: c4675d5d958edd658e92996c819704f0
+SHA1: de814f6abd8f13c86af1038b4938a2325bad7cd3
+SHA256: 39753aef49729d9a901fe4fdaa450d7562c71127e4e634a36d1d34890546e182
 Section: misc
 Priority: optional
 Description: Utilities for Imperial Driverless developers
