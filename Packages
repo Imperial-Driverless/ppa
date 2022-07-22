@@ -399,6 +399,21 @@ Section: misc
 Priority: optional
 Description: The message types defining the interfaces between our nodes
 
+Package: ros-galactic-id-msgs
+Version: 1.1.0-0focal
+Architecture: amd64
+Maintainer: mateusz <mateusz@lichota.net>
+Installed-Size: 716
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), ros-galactic-fastcdr, ros-galactic-builtin-interfaces, ros-galactic-geometry-msgs, ros-galactic-rosidl-default-runtime, ros-galactic-std-msgs
+Filename: ./packages/ros-galactic-id-msgs_1.1.0-0focal_amd64.deb
+Size: 63808
+MD5sum: 033f83b8b86a8b298767768a9668eb6e
+SHA1: 515c8f6b3375ff81b2b594494795593d2d3a678c
+SHA256: c77e57cf6040e4ade26f3355e132917769797f649c152c4a0a6cef3368e449db
+Section: misc
+Priority: optional
+Description: The message types defining the interfaces between our nodes
+
 Package: ros-galactic-id-rviz-plugins
 Version: 0.0.0-0focal
 Architecture: amd64
